@@ -1,5 +1,10 @@
+@import "/styles/general/header.css";
+@import "/styles/general/footer.css";
+@import "../styles/grid-system/grid.css";
+@import "/styles/partials/text/text.css";
+
+
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(190, 160, 160);
 }

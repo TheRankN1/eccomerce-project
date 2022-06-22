@@ -1,0 +1,80 @@
+@import "../partials/mixins";
+@import "../partials/variables";
+
+
+footer {
+  font-family: "Poppins", sans-serif;
+  margin-right: 45px;
+  margin-left: 45px;
+
+  .footer-top {
+    padding-top: 64px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    
+    &.item{
+      display: flex;
+      flex-direction: column;
+      justify-content:start;
+    }
+    .title {
+      color: $color-black-1;
+    }
+
+    .title:hover {
+      opacity: 50%;
+      cursor: pointer;
+    }
+
+    ul {
+      
+      @include reset-list;
+
+      li {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 16px;
+        color: $color-green-1;
+      }
+
+      li:hover {
+        opacity: 50%;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+  .footer-content {
+
+    
+    .title {
+      color: $color-black-1;
+    }
+    ul {
+        @include reset-list;
+        
+      li {
+        display: inline-flex;
+        padding: 4px 10px;
+        background-color: $color-gray-1;
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: $color-black-1;
+        margin-bottom: 16px;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  .footer-copyright {
+   padding-top: 64px;
+   padding-bottom: 64px;
+    font-size: 14px;
+line-height: 19px;
+font-family: 'Open Sans', sans-serif;
+  }
+}

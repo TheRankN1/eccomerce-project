@@ -161,46 +161,28 @@
       ]
     },
     {
-      "uid": "335c9038a432c89722687f28860c78a6",
-      "css": "arrow-down",
+      "uid": "fe6697b391355dec12f3d86d6d490397",
+      "css": "up-open",
       "code": 59403,
-      "src": "custom_icons",
-      "selected": true,
-      "svg": {
-        "path": "M300.8 408.3L472.1 579.6C479.9 587.4 490.4 591.7 501.5 591.7 512.5 591.7 523 587.4 530.8 579.6L697.5 412.9",
-        "width": 1000
-      },
-      "search": [
-        "arrow-down"
-      ]
+      "src": "fontawesome"
     },
     {
-      "uid": "a6bec60dedbebee326e77b275c3aab3c",
-      "css": "arrow-left",
+      "uid": "399ef63b1e23ab1b761dfbb5591fa4da",
+      "css": "right-open",
       "code": 59404,
-      "src": "custom_icons",
-      "selected": true,
-      "svg": {
-        "path": "M591.7 300.8L420.4 472.1C412.7 479.9 408.3 490.4 408.3 501.5 408.3 512.5 412.7 523 420.4 530.8L587.1 697.5",
-        "width": 1000
-      },
-      "search": [
-        "arrow-left"
-      ]
+      "src": "fontawesome"
     },
     {
-      "uid": "0e42897e745e4d7a727d9fcb948f7c7b",
-      "css": "arrow-right",
+      "uid": "d870630ff8f81e6de3958ecaeac532f2",
+      "css": "left-open",
       "code": 59405,
-      "src": "custom_icons",
-      "selected": true,
-      "svg": {
-        "path": "M439.6 699.2L610.8 527.9C618.6 520.1 622.9 509.6 622.9 498.5 622.9 487.5 618.6 477 610.8 469.2L444.2 302.5",
-        "width": 1063
-      },
-      "search": [
-        "arrow-right"
-      ]
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ccddff8e8670dcd130e3cb55fdfc2fd0",
+      "css": "down-open",
+      "code": 59406,
+      "src": "fontawesome"
     }
   ]
 }

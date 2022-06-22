@@ -1,3 +1,133 @@
-
-
-/*# sourceMappingURL=header.css.map */
+header {
+  font-family: "Poppins";
+}
+header .header-top {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.1);
+}
+header .header-top .contact {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+header .header-top .contact span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-right: 33px;
+  line-height: 16px;
+  color: #6A983C;
+}
+header .header-top .contact span.phone-number, header .header-top .contact span.email {
+  color: #151515;
+}
+header .header-top .pages {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+header .header-top .pages span {
+  margin-left: 38px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #6A983C;
+  line-height: 16px;
+}
+header .header-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 45px;
+}
+header .header-main .logo {
+  padding: 16px;
+}
+header .header-main .search {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background: #F9F9F9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+}
+header .header-main .search .all-categories {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+}
+header .header-main .search .all-categories span {
+  margin-right: 8px;
+}
+header .header-main .search .all-categories i {
+  align-items: center;
+  color: #6A983C;
+  font-size: 16px;
+  padding-right: 12px;
+  font-weight: bold;
+  border-right: 1px solid #d1d1d1;
+}
+header .header-main .search .placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  width: 262px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A9A9A9;
+  margin-left: 12px;
+}
+header .header-main .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-main .icons .icon-user {
+  margin-right: 37px;
+  font-size: 18px;
+}
+header .header-main .icons .icon-shop {
+  position: relative;
+  font-size: 18px;
+}
+header .header-main .icons .icon-shop::after {
+  content: "4";
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  bottom: -5px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  width: 16px;
+  background: #e6704b;
+  height: 16px;
+}
+header .header-tags {
+  display: flex;
+  padding: 16px 45px;
+  justify-content: space-between;
+  background-color: #F9F9F9;
+}
+header .header-tags .item span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+}
+header .header-tags .item i {
+  color: #6A983C;
+  font-size: 12px;
+}
+header .header-tags .item:hover {
+  opacity: 50%;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */

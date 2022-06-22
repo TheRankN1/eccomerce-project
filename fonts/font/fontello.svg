@@ -28,11 +28,13 @@
 
 <glyph glyph-name="user" unicode="&#xe80a;" d="M125-67l33 120c109 396 575 396 684 0l33-120m-375 418c115 0 208 93 208 208 0 115-93 209-208 209-115 0-208-94-208-209 0-115 93-208 208-208z" horiz-adv-x="1000" />
 
-<glyph glyph-name="arrow-down" unicode="&#xe80b;" d="M301 442l171-172c8-7 18-12 30-12 11 0 21 5 29 12l167 167" horiz-adv-x="1000" />
+<glyph glyph-name="up-open" unicode="&#xe80b;" d="M939 107l-92-92q-11-10-26-10t-25 10l-296 297-296-297q-11-10-25-10t-25 10l-93 92q-11 11-11 26t11 25l414 414q11 10 25 10t25-10l414-414q11-11 11-25t-11-26z" horiz-adv-x="1000" />
 
-<glyph glyph-name="arrow-left" unicode="&#xe80c;" d="M592 549l-172-171c-7-8-12-18-12-29 0-11 5-22 12-30l167-166" horiz-adv-x="1000" />
+<glyph glyph-name="right-open" unicode="&#xe80c;" d="M618 361l-414-415q-11-10-25-10t-25 10l-93 93q-11 11-11 25t11 25l296 297-296 296q-11 11-11 25t11 25l93 93q10 11 25 11t25-11l414-414q10-11 10-25t-10-25z" horiz-adv-x="714.3" />
 
-<glyph glyph-name="arrow-right" unicode="&#xe80d;" d="M440 151l171 171c8 8 12 18 12 30 0 11-4 21-12 29l-167 167" horiz-adv-x="1063" />
+<glyph glyph-name="left-open" unicode="&#xe80d;" d="M654 682l-297-296 297-297q10-10 10-25t-10-25l-93-93q-11-10-25-10t-25 10l-414 415q-11 10-11 25t11 25l414 414q10 11 25 11t25-11l93-93q10-10 10-25t-10-25z" horiz-adv-x="714.3" />
+
+<glyph glyph-name="down-open" unicode="&#xe80e;" d="M939 399l-414-413q-10-11-25-11t-25 11l-414 413q-11 11-11 26t11 25l93 92q10 11 25 11t25-11l296-296 296 296q11 11 25 11t26-11l92-92q11-11 11-25t-11-26z" horiz-adv-x="1000" />
 </font>
 </defs>
 </svg>

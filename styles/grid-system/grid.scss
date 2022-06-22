@@ -1,0 +1,26 @@
+
+.row{
+    display: flex;
+}
+$colwidth: calc(100% / 12);
+@for $i from 1 through 12 { // de la 1 la 12
+  .col-#{$i} {      // col de i 
+    width: $colwidth * $i;   // ii da 8,3 * 1 la col 1 , dupa 8,3 * 2 si tot asa , pana la 8,3 * 12 
+  }
+  @media(max-width: 1024px) {
+    
+    .col-md-#{$i}  {
+      width: $colwidth * $i;
+      display:inline-flex;
+     
+    }
+  }
+  @media(max-width: 768px) {
+    .col-sm-#{$i} {
+      
+      width: $colwidth * $i;
+      display:inline-flex;
+    }
+    
+  }
+}
