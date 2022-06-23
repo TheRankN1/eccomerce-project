@@ -1,0 +1,32 @@
+
+@import "../variables";
+
+.button-gray-1{
+    width: 167px;
+height: 48px;
+    background: $color-gray-4;
+border-radius: 12px;
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.button-green-1{
+    width: 90px;
+    height: 36px;
+    border: 2px solid #46760A;
+border-radius: 12px;
+background-color: $color-green-1;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+line-height: 22px;
+color: #FFFFFF;
+}

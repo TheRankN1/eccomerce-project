@@ -1,0 +1,136 @@
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.button-gray-1 {
+  width: 167px;
+  height: 48px;
+  background: #F5F5F5;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-green-1 {
+  width: 90px;
+  height: 36px;
+  border: 2px solid #46760A;
+  border-radius: 12px;
+  background-color: #6A983C;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+section .best-product {
+  padding: 63px 45px 73px 45px;
+  display: flex;
+}
+section .best-product-menu .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+section .best-product-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #6A983C;
+  margin-bottom: 48px;
+}
+section .best-product-menu ul li {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+section .best-product-item {
+  padding: 16px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  width: 269px;
+  margin-right: 32px;
+}
+section .best-product-item:last-child {
+  margin-right: 0;
+}
+section .best-product-item .image {
+  width: 238px;
+  height: 180px;
+  padding: 16px;
+  background: #F9F9F9;
+  border-radius: 12px;
+}
+section .best-product-item .image .discount {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+}
+section .best-product-item .item-title {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+}
+section .best-product-item .item-description {
+  font-family: "Poppins";
+  font-style: normal;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #575757;
+}
+section .best-product-item .item-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .best-product-item .item-footer .price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #151515;
+  line-height: 27px;
+}
+section .best-product-item .item-footer .button-green-1 {
+  background-color: green;
+}
+section .best-product-item .first-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A9A9A9;
+}/*# sourceMappingURL=best-product.css.map */
