@@ -3,3 +3,18 @@
     padding: 0;
     list-style: none;
 }
+@mixin hideOnMobile() {
+    @media (max-width:$mobile-breakpoint) {
+        display: none !important;
+    }
+}
+@mixin hideOnTablet() {
+    @media (max-width:$tablet-breakpoint) {
+        display: none !important;
+    }
+}
+@mixin centerOnMobile(){
+    @media(max-width:$mobile-breakpoint){
+        text-align: center !important;
+    }
+}

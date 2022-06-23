@@ -109,13 +109,13 @@ header .header-main .icons .icon-shop::after {
   background: #e6704b;
   height: 16px;
 }
-header .header-tags {
+header .menu {
   display: flex;
   padding: 16px 45px;
   justify-content: space-between;
   background-color: #F9F9F9;
 }
-header .header-tags .item span {
+header .menu-item span {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -123,11 +123,56 @@ header .header-tags .item span {
   line-height: 22px;
   color: #151515;
 }
-header .header-tags .item i {
+header .menu-item span:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+header .menu-item i {
   color: #6A983C;
   font-size: 12px;
 }
-header .header-tags .item:hover {
+header .menu-item i:hover {
   opacity: 50%;
   cursor: pointer;
+}
+header .menu-item i:last-child {
+  display: none;
+}
+@media (max-width: 1000px) {
+  header .menu {
+    background-color: #fff;
+    flex-direction: column;
+  }
+  header .menu-item {
+    display: flex;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.3);
+    padding: 10px;
+    background-color: #e4e4e4;
+  }
+  header .menu-item span {
+    flex: 1;
+    margin-left: 20px;
+  }
+  header .menu-item i {
+    margin-right: 20px;
+  }
+  header .menu-item i:last-child {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  header .header-main {
+    flex-direction: column;
+  }
+  header .header-main .logo {
+    width: 177px;
+    height: 24px;
+    margin: 0 auto;
+  }
+  header .header-main .search {
+    justify-content: center;
+  }
+  header .header-main .search .placeholder {
+    flex: 1;
+  }
 }/*# sourceMappingURL=header.css.map */

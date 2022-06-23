@@ -1,1 +1,16 @@
-/*# sourceMappingURL=classes.css.map */
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none !important;
+  }
+}
+@media (max-width: 1000px) {
+  .hideOnTablet {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .centerOnMobile {
+    text-align: center !important;
+  }
+}/*# sourceMappingURL=classes.css.map */

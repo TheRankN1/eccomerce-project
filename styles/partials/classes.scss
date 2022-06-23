@@ -1,0 +1,12 @@
+@import "mixins";
+
+.hideOnMobile{
+    @include hideOnMobile();
+}
+.hideOnTablet{
+    @include hideOnTablet();
+}
+.centerOnMobile{
+   
+    @include centerOnMobile();
+}
