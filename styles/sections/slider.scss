@@ -1,0 +1,105 @@
+@import "../partials/variables";
+@import "../partials/text/text";
+@import "../partials/text/buttons";
+@import "../partials/mixins";
+
+.slider {
+  background: $color-gray-2;
+  padding-top: 70px;
+  padding-bottom: 90px;
+
+  .routes {
+    margin-bottom: 39px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: $color-black-1;
+    }
+
+    .go-to {
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+      }
+
+      i {
+        color: $color-green-1;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+
+    .arrow-left {
+      margin-left: 5px;
+      border-top-left-radius: 25%;
+      border-bottom-left-radius: 25%;
+      width: 32px;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+      height: 48px;
+      background-color: $color-black-1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+
+      i {
+        color: #fff;
+        font-size: 24px;
+      }
+      &.right{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 25%;
+        border-bottom-right-radius: 25%;
+        i {
+            z-index: 1;
+            color: #fff;
+            font-size: 24px;
+          }
+      }
+    }
+
+    &-item {
+      padding: 24px 32px;
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+      border: 1px solid #f1f1f1;
+      border-radius: 12px;
+      margin-right: 32px;
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: $color-black-1;
+        margin-bottom: 24px;
+
+        &.name {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 18px;
+          color: $color-gray-1;
+        }
+      }
+    }
+  }
+}
