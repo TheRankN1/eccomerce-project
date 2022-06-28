@@ -1,0 +1,44 @@
+@import "../partials/variables";
+@import "../partials/text/buttons";
+
+.category-menu {
+    display: flex;
+    align-items: center;
+
+  .banner {
+    background: #f4f8ec;
+    border-radius: 12px;
+    height: 280px;
+    padding: 32px;
+    margin-right: 31px;
+    display: flex;
+    flex-direction: column;
+    &:last-child{
+        margin-right: 43px;
+    }
+    .text {
+        flex:1;
+      margin-top: 16px;
+      span {
+        margin-bottom: 8px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: $color-green-1;
+      }
+      .title{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+color:$color-black-1;
+      }
+    }
+    .button-border-green-1{
+        
+    }
+  }
+}

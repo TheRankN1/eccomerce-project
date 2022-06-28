@@ -3,11 +3,13 @@
 @import "../partials/text/buttons";
 @import "../partials/mixins";
 
-section {
+.products {
     .best-product {
         padding: 63px 45px 73px 45px;
         display: flex;
         &-menu{
+            padding-left: 45px;
+            flex:1;
         .title {
             font-family: 'Poppins';
             font-style: normal;
@@ -44,18 +46,24 @@ margin-right: 32px;
                 margin-right: 0;
             }
             .image{
-                width: 238px;
+                position: relative;
+                img{
+                position: relative;
+                width: 270px;
+                border-radius: 12px;
                 height: 180px;
-                padding: 16px;
-                background: #F9F9F9;
-border-radius: 12px;
+                }
                 .discount{
                     font-family: 'Poppins';
+                    left:20px;
+                    top:12px;
+                    position: absolute;
+                    z-index: 1;
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 18px;
-color:$color-green-1;
+color: #fff;
                 }
             }
             .item-title{

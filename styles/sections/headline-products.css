@@ -1,3 +1,10 @@
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
 .button-gray-1 {
   width: 167px;
   height: 48px;
@@ -49,4 +56,34 @@
 .button-border-green-1 i {
   font-size: 16px;
   color: #6A983C;
-}/*# sourceMappingURL=buttons.css.map */
+}
+
+.products.headline {
+  padding: 70px 45px;
+}
+.products.headline .routes {
+  margin-bottom: 39px;
+  display: flex;
+  justify-content: space-between;
+}
+.products.headline .routes span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+.products.headline .routes .go-to span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+}
+.products.headline .routes .go-to i {
+  color: #6A983C;
+}
+.products .best-product {
+  padding-left: 0;
+}/*# sourceMappingURL=headline-products.css.map */

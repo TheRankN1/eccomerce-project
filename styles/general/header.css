@@ -63,10 +63,13 @@ header .header-main .search .all-categories span {
 header .header-main .search .all-categories i {
   align-items: center;
   color: #6A983C;
-  font-size: 16px;
-  padding-right: 12px;
-  font-weight: bold;
+  font-size: 8px;
+  padding-right: 24px;
   border-right: 1px solid #d1d1d1;
+}
+header .header-main .search .all-categories .icon-search {
+  font-size: 11px;
+  color: #151515;
 }
 header .header-main .search .placeholder {
   font-family: "Open Sans";
@@ -87,11 +90,11 @@ header .header-main .icons .icon-user {
   margin-right: 37px;
   font-size: 18px;
 }
-header .header-main .icons .icon-shop {
+header .header-main .icons .icon-basket {
   position: relative;
   font-size: 18px;
 }
-header .header-main .icons .icon-shop::after {
+header .header-main .icons .icon-basket::after {
   content: "4";
   font-family: "Poppins";
   font-style: normal;
@@ -120,6 +123,8 @@ header .menu-item span {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   line-height: 22px;
   color: #151515;
 }
@@ -129,7 +134,7 @@ header .menu-item span:hover {
 }
 header .menu-item i {
   color: #6A983C;
-  font-size: 12px;
+  font-size: 6px;
 }
 header .menu-item i:hover {
   opacity: 50%;
@@ -154,6 +159,7 @@ header .menu-item i:last-child {
     margin-left: 20px;
   }
   header .menu-item i {
+    font-size: 16px;
     margin-right: 20px;
   }
   header .menu-item i:last-child {

@@ -49,4 +49,42 @@
 .button-border-green-1 i {
   font-size: 16px;
   color: #6A983C;
-}/*# sourceMappingURL=buttons.css.map */
+}
+
+.category-menu {
+  display: flex;
+  align-items: center;
+}
+.category-menu .banner {
+  background: #f4f8ec;
+  border-radius: 12px;
+  height: 280px;
+  padding: 32px;
+  margin-right: 31px;
+  display: flex;
+  flex-direction: column;
+}
+.category-menu .banner:last-child {
+  margin-right: 43px;
+}
+.category-menu .banner .text {
+  flex: 1;
+  margin-top: 16px;
+}
+.category-menu .banner .text span {
+  margin-bottom: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+}
+.category-menu .banner .text .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #151515;
+}/*# sourceMappingURL=banner-subfocus.css.map */
