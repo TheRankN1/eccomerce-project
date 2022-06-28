@@ -37,8 +37,9 @@
 
   .content {
    display: flex;
+   justify-content: space-between;
     .dinner-tips {
-      width: 469px;
+      
       height: 400px;
     display: flex;
     flex-direction: column;
@@ -120,10 +121,11 @@ color: $color-black-1;
     }
 
     .prepares {
-        margin-left: 31px;
+        
       &-item {
         margin-bottom: 32px;
         display: flex;
+        
         .text{
             font-family: 'Poppins';
 font-style: normal;
@@ -146,6 +148,8 @@ color: $color-black-1
             }
         }
       }
+  
     }
   }
 }
+

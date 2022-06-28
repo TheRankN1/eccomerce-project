@@ -7,9 +7,10 @@
   .best-product {
     padding: 63px 45px 73px 45px;
     display: flex;
+    
     &-menu {
+      margin-right: 110px;
       padding-left: 45px;
-      flex: 1;
       .title {
         font-family: "Poppins";
         font-style: normal;
@@ -26,6 +27,7 @@
           font-family: "Open Sans";
           font-style: normal;
           font-weight: 400;
+          cursor:pointer;
           font-size: 14px;
           line-height: 19px;
           text-decoration-line: underline;
@@ -39,16 +41,20 @@
       padding: 16px;
       border: 1px solid #d1d1d1;
       border-radius: 12px;
-      width: 269px;
-      margin-right: 32px;
+      margin-left: 31px;
       &:last-child {
         margin-right: 0;
       }
       .image {
+       display: flex;
+       align-items: center;
+       justify-content: center;
         position: relative;
         img {
+          width: 100%;
           position: relative;
-          width: 270px;
+          cursor:pointer;
+          
           border-radius: 12px;
           height: 180px;
         }

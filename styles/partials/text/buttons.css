@@ -5,6 +5,7 @@
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 700;
+  cursor: pointer;
   font-size: 15px;
   line-height: 22px;
   display: flex;
@@ -21,6 +22,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
+  cursor: pointer;
   font-size: 15px;
   display: flex;
   align-items: center;
@@ -43,6 +45,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
+  cursor: pointer;
   line-height: 22px;
   color: #151515;
 }

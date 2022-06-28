@@ -12,6 +12,7 @@
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 700;
+  cursor: pointer;
   font-size: 15px;
   line-height: 22px;
   display: flex;
@@ -28,6 +29,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
+  cursor: pointer;
   font-size: 15px;
   display: flex;
   align-items: center;
@@ -50,6 +52,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
+  cursor: pointer;
   line-height: 22px;
   color: #151515;
 }
@@ -63,8 +66,8 @@
   display: flex;
 }
 .products .best-product-menu {
+  margin-right: 110px;
   padding-left: 45px;
-  flex: 1;
 }
 .products .best-product-menu .title {
   font-family: "Poppins";
@@ -85,6 +88,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
+  cursor: pointer;
   font-size: 14px;
   line-height: 19px;
   -webkit-text-decoration-line: underline;
@@ -96,18 +100,21 @@
   padding: 16px;
   border: 1px solid #d1d1d1;
   border-radius: 12px;
-  width: 269px;
-  margin-right: 32px;
+  margin-left: 31px;
 }
 .products .best-product-item:last-child {
   margin-right: 0;
 }
 .products .best-product-item .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
 }
 .products .best-product-item .image img {
+  width: 100%;
   position: relative;
-  width: 270px;
+  cursor: pointer;
   border-radius: 12px;
   height: 180px;
 }

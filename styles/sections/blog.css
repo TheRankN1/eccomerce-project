@@ -12,6 +12,7 @@
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 700;
+  cursor: pointer;
   font-size: 15px;
   line-height: 22px;
   display: flex;
@@ -28,6 +29,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
+  cursor: pointer;
   font-size: 15px;
   display: flex;
   align-items: center;
@@ -50,6 +52,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
+  cursor: pointer;
   line-height: 22px;
   color: #151515;
 }
@@ -86,9 +89,9 @@
 }
 .blog .content {
   display: flex;
+  justify-content: space-between;
 }
 .blog .content .dinner-tips {
-  width: 469px;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -180,9 +183,6 @@
   font-size: 12px;
   color: #151515;
   line-height: 16px;
-}
-.blog .content .prepares {
-  margin-left: 31px;
 }
 .blog .content .prepares-item {
   margin-bottom: 32px;
