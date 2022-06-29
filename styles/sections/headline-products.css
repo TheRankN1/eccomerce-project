@@ -98,6 +98,10 @@
 }
 
 @media (max-width: 768px) {
+  .products .best-product {
+    margin-bottom: 40px;
+  }
+
   .routes {
     justify-content: center;
   }

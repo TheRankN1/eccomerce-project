@@ -230,6 +230,7 @@ header .menu-item i:last-child {
     margin: 0 auto;
   }
   header .header-main .search {
+    width: 50%;
     margin: 0 auto;
   }
   header .header-main .search .placeholder {

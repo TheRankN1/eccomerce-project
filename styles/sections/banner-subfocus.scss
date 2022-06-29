@@ -1,5 +1,6 @@
 @import "../partials/variables";
 @import "../partials/text/buttons";
+@import "../partials/mixins";
 
 .category-menu {
     display: flex;
@@ -47,10 +48,24 @@ color:$color-black-1;
 
   .category-menu{
     flex-direction: column;
+    position: relative;
     .banner{
       margin: 0 !important;
       
     }
+    @include arrows();
+    .arrow-left{
+      position: absolute;
+      border-top-left-radius: 25%;
+      border-bottom-left-radius: 25%;
+      top: calc(60%);
+      right:90px;
+      &.right{
+        left:85px;
+     
+      }
+    }
+    
   }
   
 }

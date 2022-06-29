@@ -121,6 +121,7 @@
 
  .best-product{
     flex-direction: column;
+    position: relative;
     justify-content: center;
     &-item{
       margin:0 auto !important;
@@ -129,6 +130,20 @@
       margin-right: 0 !important;
       margin-left: 0 !important;
       padding-left: 0 !important;
+    }
+    @include arrows();
+    .arrow-left{
+      
+        position: absolute;
+        border-top-left-radius: 25%;
+        border-bottom-left-radius: 25%;
+        top: calc(50%);
+        right:124px;
+        &.right{
+          left:75px;
+       
+        }
+      
     }
   }
   
