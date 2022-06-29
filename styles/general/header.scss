@@ -154,7 +154,6 @@ header {
              font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-cursor:pointer;
 font-size: 15px;
 padding-top: 16px;
 padding-bottom: 16px;
@@ -214,7 +213,7 @@ color:$color-black-1;
       }
       .search{
         
-        justify-content: center;
+        margin: 0 auto;
         .placeholder{
         flex:1;
         }

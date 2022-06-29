@@ -20,6 +20,7 @@
             }
         
             .go-to {
+              cursor:pointer;
               span {
                 font-family: "Poppins";
                 font-style: normal;
@@ -44,4 +45,9 @@
   
    }
   }
+}
+@media (max-width:$mobile-breakpoint) {
+  .routes{
+    justify-content: center;
+  }  
 }

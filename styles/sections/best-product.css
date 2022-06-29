@@ -172,4 +172,19 @@
   font-size: 12px;
   line-height: 18px;
   color: #A9A9A9;
+}
+
+@media (max-width: 768px) {
+  .best-product {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .best-product-item {
+    margin: 0 auto !important;
+  }
+  .best-product-menu {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
 }/*# sourceMappingURL=best-product.css.map */

@@ -176,7 +176,6 @@ header .menu-item span {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  cursor: pointer;
   font-size: 15px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -231,7 +230,7 @@ header .menu-item i:last-child {
     margin: 0 auto;
   }
   header .header-main .search {
-    justify-content: center;
+    margin: 0 auto;
   }
   header .header-main .search .placeholder {
     flex: 1;

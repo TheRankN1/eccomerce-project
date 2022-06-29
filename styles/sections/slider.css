@@ -85,6 +85,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100px;
   padding: 6px 12px;
   border-radius: 12px;
   background-color: #fff;
@@ -159,4 +160,27 @@
   font-size: 12px;
   line-height: 18px;
   color: #e4e4e4;
+}
+
+@media (max-width: 768px) {
+  .category-menu {
+    flex-direction: column;
+  }
+
+  .routes {
+    justify-content: center;
+  }
+
+  .content .arrow-left {
+    margin: 0 !important;
+    margin-left: auto !important;
+  }
+  .content .arrow-left.right {
+    margin: 0 !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  .content-item {
+    margin: 0 !important;
+  }
 }/*# sourceMappingURL=slider.css.map */

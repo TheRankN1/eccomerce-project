@@ -77,6 +77,9 @@
   line-height: 27px;
   color: #151515;
 }
+.products.headline .routes .go-to {
+  cursor: pointer;
+}
 .products.headline .routes .go-to span {
   font-family: "Poppins";
   font-style: normal;
@@ -92,4 +95,10 @@
 }
 .products .best-product-item:first-child {
   margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .routes {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=headline-products.css.map */

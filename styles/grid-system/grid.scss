@@ -11,7 +11,7 @@ $colwidth: calc(100% / 12);
     
     .col-md-#{$i}  {
       width: $colwidth * $i;
-      display:inline-flex;
+      
      
     }
   }
@@ -19,7 +19,7 @@ $colwidth: calc(100% / 12);
     .col-sm-#{$i} {
       
       width: $colwidth * $i;
-      display:inline-flex;
+      
     }
     
   }

@@ -21,6 +21,7 @@
     }
 
     .go-to {
+       cursor:pointer;
       span {
         font-family: "Poppins";
         font-style: normal;
@@ -46,6 +47,7 @@
     justify-content: space-between;
       .tag {
         width: 82px;
+        
         @include greenTag();
        
       }
@@ -151,5 +153,13 @@ color: $color-black-1
   
     }
   }
+}
+@media (max-width:$mobile-breakpoint) {
+.blog{
+  .content{
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
 }
 

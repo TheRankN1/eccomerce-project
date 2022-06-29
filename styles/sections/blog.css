@@ -77,6 +77,9 @@
   line-height: 27px;
   color: #151515;
 }
+.blog .routes .go-to {
+  cursor: pointer;
+}
 .blog .routes .go-to span {
   font-family: "Poppins";
   font-style: normal;
@@ -105,6 +108,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
+  cursor: pointer;
   font-size: 12px;
   line-height: 18px;
   color: #6A983C;
@@ -158,6 +162,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
+  cursor: pointer;
   font-size: 12px;
   line-height: 18px;
   color: #6A983C;
@@ -210,4 +215,11 @@
 }
 .blog .content .prepares-item .author span {
   margin-right: 16px;
+}
+
+@media (max-width: 768px) {
+  .blog .content {
+    justify-content: center;
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=blog.css.map */

@@ -117,3 +117,19 @@
     }
   }
 }
+@media (max-width:$mobile-breakpoint) {
+
+ .best-product{
+    flex-direction: column;
+    justify-content: center;
+    &-item{
+      margin:0 auto !important;
+    }
+    &-menu{
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+  
+}

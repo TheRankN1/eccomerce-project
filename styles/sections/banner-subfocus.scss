@@ -4,6 +4,7 @@
 .category-menu {
     display: flex;
     align-items: center;
+    
 
   .banner {
     background: #f4f8ec;
@@ -41,4 +42,15 @@ color:$color-black-1;
         
     }
   }
+}
+@media (max-width:$mobile-breakpoint) {
+
+  .category-menu{
+    flex-direction: column;
+    .banner{
+      margin: 0 !important;
+      
+    }
+  }
+  
 }
