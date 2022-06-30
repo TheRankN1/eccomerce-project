@@ -3,6 +3,7 @@
     display: none !important;
   }
 }
+
 @media (max-width: 1000px) {
   .hideOnTablet {
     display: none !important;
@@ -12,5 +13,11 @@
 @media (max-width: 768px) {
   .centerOnMobile {
     text-align: center !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hideOnDesktop {
+    display: none !important;
   }
 }/*# sourceMappingURL=classes.css.map */
