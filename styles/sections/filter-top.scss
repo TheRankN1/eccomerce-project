@@ -7,6 +7,7 @@
   padding-left: 45px;
   padding-right: 45px;
   padding-top: 16px;
+
   .pages {
     margin-bottom: 24px;
     font-family: "Open Sans";
@@ -15,12 +16,15 @@
     font-size: 12px;
     line-height: 16px;
     color: $color-black-1;
+
     span {
       color: $color-gray-1;
     }
   }
+
   .head {
     display: flex;
+
     .title {
       flex: 1;
       font-family: "Poppins";
@@ -30,9 +34,11 @@
       line-height: 48px;
       color: $color-black-1;
     }
+
     .grid-view {
       display: flex;
       align-items: center;
+
       .grid {
         font-family: "Open Sans";
         font-style: normal;
@@ -42,6 +48,7 @@
         line-height: 16px;
         color: $color-black-1;
       }
+
       span {
         font-family: "Open Sans";
         font-style: normal;
@@ -51,8 +58,10 @@
         color: $color-gray-1;
         margin-right: 32px;
       }
+
       .products {
         display: flex;
+
         .number {
           margin-right: 4px;
           width: 32px;
@@ -62,108 +71,210 @@
           justify-content: center;
           background: $color-green-2;
           border-radius: 12px;
-          font-family: "Poppins";
-          font-style: normal;
-          font-weight: 600;
+          @include majority-poppins-text();
           color: $color-green-1;
-          font-size: 12px;
-          line-height: 18px;
         }
       }
     }
   }
-  .filter{
+
+  .filter {
     display: flex;
     align-items: center;
-    &-item{
-        margin-right: 16px;
-        background: #F9F9F9;
-border: 1px solid #D1D1D1;
-width: 236px;
-border-radius: 12px;
-display: flex;
-padding: 11px 16px;
-        &.nbm{
-            width:160px;
-            
-        }
-        .filter-unit{
-            display: flex;
-            align-items: center;
-        input{
+
+    &-item {
+      margin-right: 16px;
+      background: #f9f9f9;
+      border: 1px solid $color-gray-6;
+      width: 236px;
+      border-radius: 12px;
+      display: flex;
+      padding: 11px 16px;
+
+      &.nbm {
+        width: 160px;
+      }
+
+      &.select {
+        .verify {
+          display: flex;
+          align-items: center;
+          border-right: 1px solid $color-gray-6;
+          padding-right: 24px;
+
+          .check {
             width: 20px;
             height: 20px;
-            position: absolute;
-            opacity: 0;
+            background-color: $color-green-1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1.5px solid #46760a;
             cursor: pointer;
-            margin: 0;
-            padding: 0;
-            & + .checkbox{
-                width: 20px;
-                height: 20px;
-                border-radius: 50%;
-                border: 2px solid $color-gray-6;
-                margin-right: 10px;
-                
-               
-              }
-            & + .checkboxBoldBorder{
-                width: 20px;
-                height: 20px;
-                position: relative;
-                border-radius: 50%;
-                margin-right: 10px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: $color-black-1;
-                
-                    &::before{
-                        position: absolute;
-                        width: 10px;
-                        height: 10px;
-                        content: "";
-                        
-                        border-radius: 50%;
-                       
-                        background-color: #fff;
-                    }
-                
+
+            i {
+              color: #fff;
+              font-size: 8px;
             }
-            & + .checkboxSquare{
-                width: 20px;
-                height: 20px;
-                margin-right: 10px;
-                border:solid 2px $color-gray-6;
+          }
+
+          span {
+            font-family: "Open Sans";
+            font-style: normal;
+            color: $color-black-1;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 14px;
+            line-height: 19px;
+          }
+
+          .number {
+            font-family: "Poppins";
+            color: $color-black-1;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            border: 1px solid $color-gray-7;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 18px;
+          }
+        }
+
+        .select-filtre {
+          display: flex;
+          align-items: center;
+          padding-left: 24px;
+
+          span {
+            @include majority-poppins-text();
+            margin-right: 4px;
+
+            color: $color-black-1;
+          }
+
+          i {
+            font-size: 5px;
+          }
+        }
+      }
+
+      .filter-unit {
+        display: flex;
+        align-items: center;
+
+        input {
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          margin: 0;
+          padding: 0;
+
+          & + .checkbox {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid $color-gray-6;
+            margin-right: 10px;
+          }
+
+          & + .checkboxBoldBorder {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            border-radius: 50%;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-black-1;
+
+            &::before {
+              position: absolute;
+              width: 10px;
+              height: 10px;
+              content: "";
+              border-radius: 50%;
+              background-color: #fff;
             }
-            
+          }
+
+          & + .checkboxSquare {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border: solid 2px $color-gray-6;
+          }
         }
-        span{
-            font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: $color-black-1;
-margin-right: 8px;
+
+        span {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: $color-black-1;
+          margin-right: 8px;
         }
-         .Nbm{
-            font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 18px;
-color:$color-black-1;
-border: 1px solid #EBEBEB;
-width: 46px;
-height: 18px;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 12px;
-         }
+
+        .Nbm {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 18px;
+          color: $color-black-1;
+          border: 1px solid $color-gray-7;
+          width: 46px;
+          height: 18px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+
+  .applied-filtres {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+
+    span {
+      @include majority-poppins-text();
+      color: $color-gray-3;
     }
 
-}
+    .selected-filtre {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 12px;
+      margin-left: 12px;
+      width: 118px;
+      padding: 0px 8px;
+      height: 18px;
+      @include greenTag();
+
+      span {
+        @include majority-poppins-text();
+        color: $color-green-1;
+      }
+
+      &.last {
+        margin: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+        opacity: 50%;
+      }
+    }
   }
 }

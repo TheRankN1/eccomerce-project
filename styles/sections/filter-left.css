@@ -1,0 +1,322 @@
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.button-gray-1 {
+  width: 167px;
+  height: 48px;
+  background: #F5F5F5;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-green-1 {
+  width: 90px;
+  height: 36px;
+  border: 2px solid #46760A;
+  border-radius: 12px;
+  background-color: #6A983C;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.button-border-green-1 {
+  width: 163px;
+  border: 2px solid #92C064;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-border-green-1 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 22px;
+  color: #151515;
+}
+.button-border-green-1 i {
+  font-size: 16px;
+  color: #6A983C;
+}
+
+.filter-left {
+  width: 270px;
+  padding-left: 46px;
+  padding-top: 64px;
+}
+.filter-left .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-size: 18px;
+}
+.filter-left .categories {
+  padding-bottom: 48px;
+}
+.filter-left .categories-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-left .categories-item span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #151515;
+  margin-bottom: 12px;
+}
+.filter-left .categories-item .number {
+  background: #F4F8EC;
+  border-radius: 12px;
+  padding: 0px 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+}
+.filter-left .brands {
+  padding-bottom: 48px;
+}
+.filter-left .brands-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.filter-left .brands-item i {
+  display: none;
+}
+.filter-left .brands-item .square {
+  border: 2px solid #D1D1D1;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.filter-left .brands-item .square.active {
+  background-color: #6A983C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #46760a;
+  cursor: pointer;
+}
+.filter-left .brands-item .square.active i {
+  color: #fff;
+  font-size: 8px;
+  display: block;
+}
+.filter-left .rating {
+  padding-bottom: 48px;
+}
+.filter-left .rating-item {
+  display: flex;
+  margin-bottom: 16px;
+}
+.filter-left .rating-item .stars .icon-star-full {
+  color: #FDBC15;
+}
+.filter-left .rating-item .stars .icon-star-light {
+  color: #D1D1D1;
+}
+.filter-left .rating-item .box {
+  border: 2px solid #D1D1D1;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.filter-left .price {
+  position: relative;
+}
+.filter-left .price .bar {
+  margin-bottom: 16px;
+  width: 250px;
+  height: 6px;
+  background: #EBEBEB;
+  position: relative;
+  border-radius: 12px;
+  display: flex;
+}
+.filter-left .price .bar ::before {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  background-color: #fff;
+  content: "";
+  z-index: 1;
+  position: absolute;
+}
+.filter-left .price .bar ::after {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  left: 60px;
+  background-color: #fff;
+  z-index: 1;
+  position: absolute;
+  content: "";
+}
+.filter-left .price .bar .fill {
+  background: #6A983C;
+  border-radius: 12px;
+  position: absolute;
+  width: 80px;
+  height: 6px;
+  left: 50px;
+}
+.filter-left .price .extreme {
+  display: flex;
+  align-items: center;
+}
+.filter-left .price .extreme .min span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+.filter-left .price .extreme .min input {
+  height: 42px;
+  background: #F9F9F9;
+  border: 1px solid #D1D1D1;
+  width: 110px;
+  border-radius: 12px;
+}
+.filter-left .price .extreme .min input::-moz-placeholder {
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A9A9A9;
+}
+.filter-left .price .extreme .min input:-ms-input-placeholder {
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A9A9A9;
+}
+.filter-left .price .extreme .min input::placeholder {
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A9A9A9;
+}
+.filter-left .price .extreme span {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.filter-left .price .extreme .max span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+.filter-left .price .extreme .max input {
+  background: #F9F9F9;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  width: 110px;
+  height: 42px;
+}
+.filter-left .price .extreme .max input::-moz-placeholder {
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A9A9A9;
+}
+.filter-left .price .extreme .max input:-ms-input-placeholder {
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A9A9A9;
+}
+.filter-left .price .extreme .max input::placeholder {
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A9A9A9;
+}
+.filter-left .price .buttons {
+  margin-top: 31px;
+  display: flex;
+  align-items: center;
+}
+.filter-left .price .buttons .apply {
+  margin-right: 46px;
+  width: 78px;
+  height: 48px;
+}
+.filter-left .price .buttons .reset {
+  color: #A9A9A9;
+  width: 43px;
+  height: 23px;
+  border: none;
+  background-color: transparent;
+}/*# sourceMappingURL=filter-left.css.map */
