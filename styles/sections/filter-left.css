@@ -157,38 +157,33 @@
 .filter-left .price {
   position: relative;
 }
-.filter-left .price .bar {
-  margin-bottom: 16px;
+.filter-left .price .parent-ball {
+  display: inline-flex;
+  position: relative;
+}
+.filter-left .price .parent-ball .min-ball, .filter-left .price .parent-ball .max-ball {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  background-color: #fff;
+  z-index: 1;
+}
+.filter-left .price .parent-ball .min-ball {
+  margin-left: 40px;
+  margin-right: 58px;
+}
+.filter-left .price .parent-ball .bar {
   width: 250px;
   height: 6px;
+  bottom: 6px;
   background: #EBEBEB;
-  position: relative;
+  position: absolute;
   border-radius: 12px;
   display: flex;
 }
-.filter-left .price .bar ::before {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #D1D1D1;
-  border-radius: 12px;
-  background-color: #fff;
-  content: "";
-  z-index: 1;
-  position: absolute;
-}
-.filter-left .price .bar ::after {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #D1D1D1;
-  border-radius: 12px;
-  left: 60px;
-  background-color: #fff;
-  z-index: 1;
-  position: absolute;
-  content: "";
-}
-.filter-left .price .bar .fill {
-  background: #6A983C;
+.filter-left .price .parent-ball .bar .fill {
+  background: #6a983c;
   border-radius: 12px;
   position: absolute;
   width: 80px;
@@ -196,6 +191,7 @@
   left: 50px;
 }
 .filter-left .price .extreme {
+  margin-top: 23px;
   display: flex;
   align-items: center;
 }
@@ -208,7 +204,7 @@
 }
 .filter-left .price .extreme .min input {
   height: 42px;
-  background: #F9F9F9;
+  background: #f9f9f9;
   border: 1px solid #D1D1D1;
   width: 110px;
   border-radius: 12px;
@@ -261,7 +257,7 @@
   line-height: 18px;
 }
 .filter-left .price .extreme .max input {
-  background: #F9F9F9;
+  background: #f9f9f9;
   border: 1px solid #D1D1D1;
   border-radius: 12px;
   width: 110px;
