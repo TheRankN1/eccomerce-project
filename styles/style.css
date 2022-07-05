@@ -11,6 +11,8 @@
 @import "sections/slider.css";
 @import "sections/filter-top.css";
 @import "sections/filter-left.css";
+@import "sections/big-product.css";
+@import "sections/more-products.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 body {

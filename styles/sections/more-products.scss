@@ -1,0 +1,59 @@
+@import "../partials/variables";
+@import "../partials/text/text";
+@import "../partials/text/buttons";
+@import "../partials/mixins";
+
+.more-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 45px;
+    .pages{
+        display: flex;
+        span{
+            @include majority-open-sans-text();      
+            color:$color-gray-3;
+        }
+        ul{
+            @include reset-list();
+            display: flex;
+            margin-left: 8px;
+            li{
+                cursor: pointer;
+                margin-right: 8px;
+                @include majority-open-sans-text();   
+                &:last-child{
+                    margin-right: 0;
+                }
+               &.active{
+                color:$color-green-1;
+               }
+            }
+        }
+    }
+    .button-green-1{
+        width: 214px;
+        span{
+            margin-right: 10px;
+            @include majority-poppins-text();
+            font-size:15px;
+            color:#fff;
+        }
+        .demo-icon{
+            font-size:6px;
+        }
+    }
+    .noProducts{
+        display: flex;
+        align-items: center;
+
+        .no{
+            @include greenTag();
+            margin-right: 4px;
+        }
+        span{
+            @include majority-open-sans-text();
+            color:$color-gray-3;
+        }
+    }
+}

@@ -7,6 +7,7 @@
   width: 270px;
   padding-left: 46px;
   padding-top: 64px;
+  flex:1;
 
   .title {
     @include majority-poppins-text();
@@ -19,15 +20,12 @@
     &-item {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      
 
       span {
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 400;
+        margin-right: 100px;
         font-size: 14px;
-        line-height: 19px;
-        color: $color-black-1;
+        @include majority-open-sans-text();
         margin-bottom: 12px;
       }
 
@@ -44,7 +42,8 @@
       display: flex;
       align-items: center;
       margin-bottom: 16px;
-
+      @include majority-open-sans-text();
+      font-size:14px;
       i {
         display: none;
       }
@@ -147,6 +146,8 @@
       align-items: center;
 
       .min {
+        display: flex;
+        flex-direction: column;
         span {
           @include majority-poppins-text();
         }
@@ -179,6 +180,8 @@
       }
 
       .max {
+        display: flex;
+        flex-direction: column;
         span {
           @include majority-poppins-text();
         }

@@ -1,0 +1,109 @@
+
+@import "../partials/variables";
+@import "../partials/text/text";
+@import "../partials/text/buttons";
+@import "../partials/mixins";
+.content{
+    display: flex;
+.product{
+    padding-top: 64px;
+    padding-right: 45px;
+    &-item{
+        margin-left: 32px;
+        border: 1px solid #D1D1D1;
+border-radius: 12px;
+margin-bottom: 32px;
+
+        display: flex;
+        img{
+            width: 268px;
+            height: 280px;
+            margin-right: 32px;
+        }
+        .product-details{
+            padding: 32px;
+            flex:1;
+            .title{
+                @include majority-poppins-text();
+                font-size: 18px;
+                margin-bottom: 4px;
+            }
+            .desc{
+                @include majority-open-sans-text();
+                font-size:14px;
+                margin-bottom: 10px;
+                color:$color-gray-5;
+            }
+            .rating{
+                margin-bottom: 28px;
+                .demo-icon{
+                    font-size:22px;
+                }
+            }
+            .details{
+                display: flex;
+                
+                ul{
+                   
+                    @include reset-list();
+                    margin-right: 32px; 
+                    li{
+                        @include majority-open-sans-text();
+                        font-size:14px;
+                        color:$color-gray-3;
+                        margin-bottom: 12px;
+                        &.Highlighted , span{
+                            color:$color-green-1;
+                        }
+                    }
+                }
+            }
+        }
+        .product-transaction{
+            padding: 32px;
+            .price{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 16px;
+                .actual-price{
+                    @include majority-poppins-text();
+                    font-size: 18px;
+                }
+                .last-price{
+                    @include majority-poppins-text();
+                    font-size: 12px;
+                    color:$color-gray-3;
+                    text-decoration-line: line-through;
+                }
+            }
+            .delivery{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 26px;
+                .ship{
+                    @include majority-poppins-text();
+                    font-size: 18px;
+                    color:$color-gray-3;
+                }
+                .noDays{
+                    @include majority-open-sans-text();
+                  
+                    color:$color-gray-3;
+                }
+            }
+            .buttons{
+                .button-green-1{
+                    
+                    width: 164px;
+                    cursor: pointer;
+                    margin-bottom: 12px;
+                }
+                .button-gray-1{
+                    width: 164px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+}

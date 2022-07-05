@@ -65,6 +65,7 @@
   width: 270px;
   padding-left: 46px;
   padding-top: 64px;
+  flex: 1;
 }
 .filter-left .title {
   font-family: "Poppins";
@@ -80,13 +81,13 @@
 .filter-left .categories-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .filter-left .categories-item span {
+  margin-right: 100px;
+  font-size: 14px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 19px;
   color: #151515;
   margin-bottom: 12px;
@@ -110,6 +111,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  color: #151515;
+  font-size: 14px;
 }
 .filter-left .brands-item i {
   display: none;
@@ -195,6 +202,10 @@
   display: flex;
   align-items: center;
 }
+.filter-left .price .extreme .min {
+  display: flex;
+  flex-direction: column;
+}
 .filter-left .price .extreme .min span {
   font-family: "Poppins";
   font-style: normal;
@@ -248,6 +259,10 @@
 .filter-left .price .extreme span {
   padding-right: 14px;
   padding-left: 14px;
+}
+.filter-left .price .extreme .max {
+  display: flex;
+  flex-direction: column;
 }
 .filter-left .price .extreme .max span {
   font-family: "Poppins";
