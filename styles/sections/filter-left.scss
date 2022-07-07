@@ -4,10 +4,9 @@
 @import "../partials/mixins";
 
 .filter-left {
-  width: 270px;
   padding-left: 46px;
   padding-top: 64px;
-  flex:1;
+
 
   .title {
     @include majority-poppins-text();
@@ -20,7 +19,6 @@
     &-item {
       display: flex;
       align-items: center;
-      
 
       span {
         margin-right: 100px;
@@ -43,7 +41,7 @@
       align-items: center;
       margin-bottom: 16px;
       @include majority-open-sans-text();
-      font-size:14px;
+      font-size: 14px;
       i {
         display: none;
       }
@@ -103,42 +101,43 @@
 
   .price {
     position: relative;
-    
-    .parent-ball{
-      display:inline-flex;
-      position:relative;
-     
-    .min-ball,.max-ball{
-      width: 20px;
-      height: 20px;
-      border: 1px solid $color-gray-6;
-      border-radius: 12px;
-      background-color: #fff;
-      z-index: 1;
-    }
-    .min-ball{
-      margin-left:40px;
-      margin-right: 58px;
-    }
-    .bar {
-      width: 250px;
-      height: 6px;
-      bottom:6px;
-      background: $color-gray-7;
-      position: absolute;
-     
-      border-radius: 12px;
-      display: flex;
-      .fill {
-        background: #6a983c;
+
+    .parent-ball {
+      display: inline-flex;
+      position: relative;
+
+      .min-ball,
+      .max-ball {
+        width: 20px;
+        height: 20px;
+        border: 1px solid $color-gray-6;
         border-radius: 12px;
-        position: absolute;
-        width: 80px;
+        background-color: #fff;
+        z-index: 1;
+      }
+      .min-ball {
+        margin-left: 40px;
+        margin-right: 58px;
+      }
+      .bar {
+        width: 250px;
         height: 6px;
-        left: 50px;
+        bottom: 6px;
+        background: $color-gray-7;
+        position: absolute;
+
+        border-radius: 12px;
+        display: flex;
+        .fill {
+          background: #6a983c;
+          border-radius: 12px;
+          position: absolute;
+          width: 80px;
+          height: 6px;
+          left: 50px;
+        }
       }
     }
-  }
 
     .extreme {
       margin-top: 23px;
@@ -227,6 +226,62 @@
         height: 23px;
         border: none;
         background-color: transparent;
+      }
+    }
+  }
+}
+@media (max-width: $mobile-breakpoint) {
+  .filter-left {
+    margin: 0 auto;
+    .categories {
+      width: 268px;
+      text-align: center;
+      cursor: pointer;
+      &-item {
+        justify-content: center;
+      }
+      .title {
+        margin-bottom: 25px;
+      }
+    }
+    .brands {
+      text-align: center;
+      width: 268px;
+      cursor: pointer;
+      &-item {
+        justify-content: center;
+      }
+      .title {
+        margin-bottom: 25px;
+      }
+    }
+    .rating {
+      width: 268px;
+      text-align: center;
+      cursor: pointer;
+      &-item {
+        justify-content: center;
+      }
+      .title {
+        margin-bottom: 25px;
+      }
+    }
+    .price {
+      width: 268px;
+      text-align: center;
+      cursor: pointer;
+
+      .title {
+        margin-bottom: 25px;
+      }
+    }
+    .brands,
+    .categories,
+    .rating,
+    .price {
+      .content {
+        display: none;
+       
       }
     }
   }

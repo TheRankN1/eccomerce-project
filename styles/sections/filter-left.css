@@ -62,10 +62,8 @@
 }
 
 .filter-left {
-  width: 270px;
   padding-left: 46px;
   padding-top: 64px;
-  flex: 1;
 }
 .filter-left .title {
   font-family: "Poppins";
@@ -88,6 +86,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
+  font-size: 12px;
   line-height: 19px;
   color: #151515;
   margin-bottom: 12px;
@@ -114,6 +113,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
+  font-size: 12px;
   line-height: 19px;
   color: #151515;
   font-size: 14px;
@@ -168,7 +168,8 @@
   display: inline-flex;
   position: relative;
 }
-.filter-left .price .parent-ball .min-ball, .filter-left .price .parent-ball .max-ball {
+.filter-left .price .parent-ball .min-ball,
+.filter-left .price .parent-ball .max-ball {
   width: 20px;
   height: 20px;
   border: 1px solid #D1D1D1;
@@ -330,4 +331,57 @@
   height: 23px;
   border: none;
   background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .filter-left {
+    margin: 0 auto;
+  }
+  .filter-left .categories {
+    width: 268px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .filter-left .categories-item {
+    justify-content: center;
+  }
+  .filter-left .categories .title {
+    margin-bottom: 25px;
+  }
+  .filter-left .brands {
+    text-align: center;
+    width: 268px;
+    cursor: pointer;
+  }
+  .filter-left .brands-item {
+    justify-content: center;
+  }
+  .filter-left .brands .title {
+    margin-bottom: 25px;
+  }
+  .filter-left .rating {
+    width: 268px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .filter-left .rating-item {
+    justify-content: center;
+  }
+  .filter-left .rating .title {
+    margin-bottom: 25px;
+  }
+  .filter-left .price {
+    width: 268px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .filter-left .price .title {
+    margin-bottom: 25px;
+  }
+  .filter-left .brands .content,
+.filter-left .categories .content,
+.filter-left .rating .content,
+.filter-left .price .content {
+    display: none;
+  }
 }/*# sourceMappingURL=filter-left.css.map */

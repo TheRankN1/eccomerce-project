@@ -143,4 +143,14 @@
   line-height: 19px;
   color: #151515;
   color: #A9A9A9;
+}
+
+@media (max-width: 768px) {
+  .more-products {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .more-products .pages {
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=more-products.css.map */

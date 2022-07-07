@@ -61,6 +61,9 @@
   color: #6A983C;
 }
 
+.products .row {
+  margin-bottom: 57px;
+}
 .products .best-product {
   padding: 63px 45px 73px 45px;
   display: flex;
@@ -179,11 +182,15 @@
     flex-direction: column;
     position: relative;
     justify-content: center;
+    padding: 0 !important;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
   }
   .best-product-item {
     margin: 0 auto !important;
   }
   .best-product-menu {
+    margin-top: 20px !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
     padding-left: 0 !important;

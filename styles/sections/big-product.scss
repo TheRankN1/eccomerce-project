@@ -8,13 +8,15 @@
 .product{
     padding-top: 64px;
     padding-right: 45px;
+    padding-left: 45px;
     &-item{
         margin-left: 32px;
         border: 1px solid #D1D1D1;
 border-radius: 12px;
 margin-bottom: 32px;
-
+    
         display: flex;
+       
         img{
             width: 268px;
             height: 280px;
@@ -106,4 +108,18 @@ margin-bottom: 32px;
         }
     }
 }
+}
+@media (max-width:$mobile-breakpoint) {
+
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        .product{
+            &-item{
+                flex-direction: column;
+                
+            }
+        }
+    }
+    
 }

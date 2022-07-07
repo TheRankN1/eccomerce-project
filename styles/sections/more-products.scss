@@ -57,3 +57,13 @@
         }
     }
 }
+
+@media (max-width:$mobile-breakpoint) {
+    .more-products{
+    justify-content: center;
+    flex-direction: column;
+        .pages{
+            margin-bottom: 30px;
+        }
+    }
+}
