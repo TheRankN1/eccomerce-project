@@ -63,6 +63,7 @@
 
 .blog {
   padding: 65px 45px;
+  display: block !important;
 }
 .blog .routes {
   margin-bottom: 39px;

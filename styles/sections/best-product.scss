@@ -4,6 +4,7 @@
 @import "../partials/mixins";
 
 .products {
+  display: block !important;
   .row{
     margin-bottom: 57px;
   }

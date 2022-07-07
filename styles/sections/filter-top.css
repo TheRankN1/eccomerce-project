@@ -65,6 +65,7 @@
   padding-left: 45px;
   padding-right: 45px;
   padding-top: 16px;
+  display: block !important;
 }
 .filter-top .pages {
   margin-bottom: 24px;

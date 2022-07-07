@@ -1,6 +1,8 @@
 
 .row{
     display: flex;
+    margin: 0 auto;
+    max-width:1260px;
 }
 $colwidth: calc(100% / 12);
 @for $i from 1 through 12 { // de la 1 la 12

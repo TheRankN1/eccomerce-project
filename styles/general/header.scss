@@ -1,6 +1,7 @@
 @import "../partials/variables";
 header {
   font-family: "Poppins";
+  display: block !important;
   .header-top {
     display: flex;
     justify-content: space-between;
