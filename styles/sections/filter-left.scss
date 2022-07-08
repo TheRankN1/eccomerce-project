@@ -7,7 +7,6 @@
   padding-left: 46px;
   padding-top: 64px;
 
-
   .title {
     @include majority-poppins-text();
     font-size: 18px;
@@ -42,6 +41,7 @@
       margin-bottom: 16px;
       @include majority-open-sans-text();
       font-size: 14px;
+
       i {
         display: none;
       }
@@ -50,12 +50,14 @@
         border: 2px solid $color-gray-6;
         width: 20px;
         height: 20px;
+
         cursor: pointer;
         margin-right: 10px;
 
         &.active {
           background-color: $color-green-1;
           display: flex;
+
           align-items: center;
           justify-content: center;
           border: 1.5px solid #46760a;
@@ -63,7 +65,7 @@
 
           i {
             color: #fff;
-            font-size: 8px;
+            font-size: 9px;
             display: block;
           }
         }
@@ -115,10 +117,12 @@
         background-color: #fff;
         z-index: 1;
       }
+
       .min-ball {
         margin-left: 40px;
         margin-right: 58px;
       }
+
       .bar {
         width: 250px;
         height: 6px;
@@ -128,6 +132,7 @@
 
         border-radius: 12px;
         display: flex;
+
         .fill {
           background: #6a983c;
           border-radius: 12px;
@@ -147,6 +152,7 @@
       .min {
         display: flex;
         flex-direction: column;
+
         span {
           @include majority-poppins-text();
         }
@@ -181,6 +187,7 @@
       .max {
         display: flex;
         flex-direction: column;
+
         span {
           @include majority-poppins-text();
         }
@@ -230,58 +237,64 @@
     }
   }
 }
+
 @media (max-width: $mobile-breakpoint) {
   .filter-left {
     margin: 0 auto;
-    .categories {
-      width: 268px;
-      text-align: center;
-      cursor: pointer;
-      &-item {
-        justify-content: center;
-      }
-      .title {
-        margin-bottom: 25px;
-      }
-    }
-    .brands {
-      text-align: center;
-      width: 268px;
-      cursor: pointer;
-      &-item {
-        justify-content: center;
-      }
-      .title {
-        margin-bottom: 25px;
-      }
-    }
-    .rating {
-      width: 268px;
-      text-align: center;
-      cursor: pointer;
-      &-item {
-        justify-content: center;
-      }
-      .title {
-        margin-bottom: 25px;
-      }
-    }
+
+    .categories,
+    .brands,
+    .rating,
     .price {
       width: 268px;
-      text-align: center;
+
       cursor: pointer;
 
-      .title {
-        margin-bottom: 25px;
+      &-item {
+        justify-content: center;
       }
     }
+
     .brands,
     .categories,
     .rating,
     .price {
       .content {
         display: none;
-       
+      }
+    }
+  }
+}
+
+div {
+  &[data-type^="accordion-"] {
+    .title-box {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+
+      .title {
+        margin-bottom: 0;
+      }
+
+      .demo-icon {
+        font-size: 12px;
+        margin-left: 4px;
+        transition: rotate 0.2s ease-in-out;
+        transform: rotate(0deg);
+
+        &.reverse {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+@media (max-width: $mobile-breakpoint) {
+  div {
+    &[data-type^="accordion-"] {
+      .title-box {
+        justify-content: center;
       }
     }
   }

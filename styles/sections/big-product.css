@@ -196,10 +196,14 @@
 
 @media (max-width: 768px) {
   .content {
-    flex-direction: column;
+    flex-direction: column !important;
     justify-content: center;
+  }
+  .content .product {
+    margin: 0 auto;
   }
   .content .product-item {
     flex-direction: column;
+    border: none;
   }
 }/*# sourceMappingURL=big-product.css.map */

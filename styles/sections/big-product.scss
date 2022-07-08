@@ -112,11 +112,13 @@ margin-bottom: 32px;
 @media (max-width:$mobile-breakpoint) {
 
     .content{
-        flex-direction: column;
+        flex-direction: column !important;
         justify-content: center;
         .product{
+            margin: 0 auto;
             &-item{
                 flex-direction: column;
+                border: none;
                 
             }
         }

@@ -278,3 +278,8 @@
     }
   }
 }
+@media (max-width: $mobile-breakpoint) {
+  .filter-top {
+    justify-content: center;
+  }
+}

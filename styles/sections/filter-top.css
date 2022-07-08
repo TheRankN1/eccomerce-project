@@ -324,4 +324,10 @@
 .filter-top .applied-filtres .selected-filtre:hover {
   cursor: pointer;
   opacity: 50%;
+}
+
+@media (max-width: 768px) {
+  .filter-top {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=filter-top.css.map */
