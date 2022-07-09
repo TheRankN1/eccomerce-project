@@ -13,7 +13,6 @@ header {
       padding-top: 16px;
       padding-bottom: 16px;
       span {
-        
         font-family: "Open Sans";
         font-style: normal;
         font-weight: 400;
@@ -43,14 +42,13 @@ header {
     }
   }
   .header-main {
-  
     display: flex;
     justify-content: space-between;
 
     padding: 56px 45px;
-    .logo{
-      cursor:pointer;
-        padding: 16px;
+    .logo {
+      cursor: pointer;
+      padding: 16px;
     }
     .search {
       display: flex;
@@ -73,21 +71,21 @@ header {
           color: $color-green-1;
           font-size: 8px;
           padding-right: 24px;
-          
+
           border-right: 1px solid #d1d1d1;
         }
-        .icon-search{
-          cursor:pointer !important;
+        .icon-search {
+          cursor: pointer !important;
           font-size: 11px;
-          color:$color-black-1;
+          color: $color-black-1;
         }
       }
-      
-      input{
+
+      input {
         background-color: transparent;
         border: none;
-        flex:1;
-        &::placeholder{
+        flex: 1;
+        &::placeholder {
           font-family: "Open Sans";
           font-style: normal;
           font-weight: 400;
@@ -95,16 +93,15 @@ header {
           line-height: 19px;
           color: $color-gray-3;
           margin-left: 12px;
-          flex:1;
+          flex: 1;
           padding-left: 24px;
           display: block;
           width: 400px;
-         
         }
-        &:focus{
+        &:focus {
           outline: none !important ;
           text-align: center;
-          &::placeholder{
+          &::placeholder {
             text-align: left;
           }
         }
@@ -117,19 +114,20 @@ header {
       .icon-user {
         margin-right: 37px;
         font-size: 18px;
-        cursor:pointer;
+        cursor: pointer;
       }
       .icon-basket {
         position: relative;
-        cursor:pointer;
+        cursor: pointer;
         font-size: 18px;
-        
-        &::after { // DE SCHIMBAT
+
+        &::after {
+          // DE SCHIMBAT
           content: "4";
           font-family: "Poppins";
           font-style: normal;
           font-weight: 600;
-          bottom: -5px;    
+          bottom: -5px;
           color: #ffffff;
           font-size: 12px;
           line-height: 18px;
@@ -149,76 +147,74 @@ header {
     display: flex;
     padding: 16px 45px;
     justify-content: space-between;
-  background-color: $color-gray-2;
-        &-item{
-            span{
-             font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-padding-top: 16px;
-padding-bottom: 16px;
-line-height: 22px;
-color:$color-black-1;
-    &:hover{
-    opacity: 50%;
-    cursor: pointer;
-    }
-            }
-            i{
-                color:$color-green-1;
-                font-size:6px;
-                &:hover{
-                    opacity: 50%;
-                    cursor: pointer;
-                }
-                &:last-child{
-                  display: none;
-                }
-            }
-            
+    background-color: $color-gray-2;
+    &-item {
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        line-height: 22px;
+        color: $color-black-1;
+        &:hover {
+          opacity: 50%;
+          cursor: pointer;
         }
-       
-
-  }
-  @media (max-width:$tablet-breakpoint) {
-    .menu{
-      background-color: #fff;
-      flex-direction: column;
-      &-item{
-        display: flex;
-        border-bottom: 1px solid rgba(21, 21, 21, 0.3);
-        padding:10px;
-        background-color: $color-gray-1;
-          span{
-            flex:1;
-            margin-left: 20px;
-          }
-          i{
-            font-size: 16px;
-            margin-right: 20px;
-            &:last-child{
-              display: block;
-            }
-          }
+      }
+      i {
+        color: $color-green-1;
+        font-size: 6px;
+        &:hover {
+          opacity: 50%;
+          cursor: pointer;
+        }
+        &:last-child {
+          display: none;
+        }
       }
     }
   }
-  @media (max-width:$mobile-breakpoint) {
-    .header-main{
+  @media (max-width: $tablet-breakpoint) {
+    .menu {
+      background-color: #fff;
       flex-direction: column;
-      .logo{
+      &-item {
+        display: flex;
+        border-bottom: 1px solid rgba(21, 21, 21, 0.3);
+        padding: 10px;
+        background-color: $color-gray-1;
+        span {
+          flex: 1;
+          margin-left: 20px;
+        }
+        i {
+          font-size: 16px;
+          margin-right: 20px;
+          &:last-child {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: $mobile-breakpoint) {
+    .header-main {
+      flex-direction: column;
+      .logo {
         width: 177px;
         height: 24px;
         margin: 0 auto;
+        box-sizing: content-box !important;
       }
-      .search{
+      .search {
         width: 75%;
         margin: 0 auto;
-        .placeholder{
-        flex:1;
+        .placeholder {
+          flex: 1;
         }
       }
     }
-}
+  }
 }

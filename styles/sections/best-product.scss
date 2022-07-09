@@ -5,13 +5,13 @@
 
 .products {
   display: block !important;
-  .row{
+  .row {
     margin-bottom: 57px;
   }
   .best-product {
     padding: 63px 45px 73px 45px;
     display: flex;
-    
+
     &-menu {
       margin-right: 110px;
       padding-left: 45px;
@@ -31,7 +31,7 @@
           font-family: "Open Sans";
           font-style: normal;
           font-weight: 400;
-          cursor:pointer;
+          cursor: pointer;
           font-size: 14px;
           line-height: 19px;
           text-decoration-line: underline;
@@ -46,19 +46,29 @@
       border: 1px solid #d1d1d1;
       border-radius: 12px;
       margin-left: 31px;
+      height: 322px;
+      .item-rating {
+        display: none;
+      }
+      &.rating {
+        height: 358px;
+        .item-rating {
+          display: block;
+        }
+      }
       &:last-child {
         margin-right: 0;
       }
       .image {
-       display: flex;
-       align-items: center;
-       justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
         img {
           width: 100%;
           position: relative;
-          cursor:pointer;
-          
+          cursor: pointer;
+
           border-radius: 12px;
           height: 180px;
         }
@@ -93,6 +103,21 @@
         font-size: 15px;
         line-height: 22px;
         color: $color-gray-5;
+        &.for-rating {
+          margin-bottom: 13px !important;
+        }
+      }
+      .item-rating {
+        margin-bottom: 17px;
+        .demo-icon {
+          font-size: 18px;
+          color: $color-black-1;
+          &.first {
+            &::before {
+              margin-left: 0 !important;
+            }
+          }
+        }
       }
       .item-footer {
         display: flex;
@@ -121,38 +146,33 @@
     }
   }
 }
-@media (max-width:$mobile-breakpoint) {
-
- .best-product{
+@media (max-width: $mobile-breakpoint) {
+  .best-product {
     flex-direction: column;
     position: relative;
     justify-content: center;
-   padding: 0 !important;
-   margin-top: 20px !important;
-   margin-bottom: 0 !important;
-    &-item{
-      margin:0 auto !important;
+    padding: 0 !important;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+    &-item {
+      margin: 0 auto !important;
     }
-    &-menu{
+    &-menu {
       margin-top: 20px !important;
       margin-right: 0 !important;
       margin-left: 0 !important;
       padding-left: 0 !important;
     }
     @include arrows();
-    .arrow-left{
-      
-        position: absolute;
-        border-top-left-radius: 25%;
-        border-bottom-left-radius: 25%;
-        top: calc(50%);
-        right:80px;
-        &.right{
-          left:75px;
-  
-        }
-      
+    .arrow-left {
+      position: absolute;
+      border-top-left-radius: 25%;
+      border-bottom-left-radius: 25%;
+      top: calc(50%);
+      right: 80px;
+      &.right {
+        left: 75px;
+      }
     }
   }
-  
 }

@@ -56,16 +56,17 @@
 
         &.active {
           background-color: $color-green-1;
-          display: flex;
-
-          align-items: center;
-          justify-content: center;
           border: 1.5px solid #46760a;
+          position: relative;
           cursor: pointer;
 
           i {
             color: #fff;
+            position: absolute;
             font-size: 9px;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            left: calc(50% - 2px);
             display: block;
           }
         }

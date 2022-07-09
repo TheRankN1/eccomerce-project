@@ -229,6 +229,7 @@ header .menu-item i:last-child {
     width: 177px;
     height: 24px;
     margin: 0 auto;
+    box-sizing: content-box !important;
   }
   header .header-main .search {
     width: 75%;

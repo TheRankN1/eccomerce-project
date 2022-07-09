@@ -107,6 +107,16 @@
   border: 1px solid #d1d1d1;
   border-radius: 12px;
   margin-left: 31px;
+  height: 322px;
+}
+.products .best-product-item .item-rating {
+  display: none;
+}
+.products .best-product-item.rating {
+  height: 358px;
+}
+.products .best-product-item.rating .item-rating {
+  display: block;
 }
 .products .best-product-item:last-child {
   margin-right: 0;
@@ -154,6 +164,19 @@
   font-size: 15px;
   line-height: 22px;
   color: #575757;
+}
+.products .best-product-item .item-description.for-rating {
+  margin-bottom: 13px !important;
+}
+.products .best-product-item .item-rating {
+  margin-bottom: 17px;
+}
+.products .best-product-item .item-rating .demo-icon {
+  font-size: 18px;
+  color: #151515;
+}
+.products .best-product-item .item-rating .demo-icon.first::before {
+  margin-left: 0 !important;
 }
 .products .best-product-item .item-footer {
   display: flex;
