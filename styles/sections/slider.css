@@ -167,11 +167,9 @@
   .category-menu {
     flex-direction: column;
   }
-
   .routes {
     justify-content: center;
   }
-
   .content {
     flex-direction: row !important;
   }

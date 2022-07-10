@@ -60,7 +60,7 @@
       }
 
       .products {
-        display: flex;
+        display: flex !important;
 
         .number {
           margin-right: 4px;

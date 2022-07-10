@@ -1,0 +1,187 @@
+@import "../partials/variables";
+@import "../partials/text/text";
+@import "../partials/text/buttons";
+@import "../partials/mixins";
+
+.product-view {
+  .images {
+    position: relative;
+    img {
+      width: 569px;
+      height: 436px;
+      margin-right: 32px;
+      border-radius: 12px;
+    }
+    .tags {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      display: flex;
+      .green-tag {
+        @include greenTag();
+      }
+      .discount {
+        margin-right: 12px;
+      }
+    }
+  }
+  .content {
+    flex-direction: column;
+    .title {
+      @include majority-poppins-text();
+      font-weight: 400;
+      font-size: 32px;
+    }
+
+    .review {
+      display: flex;
+      margin-bottom: 42px;
+      .rating {
+        margin-right: 10px;
+        .demo-icon {
+          font-size: 16px;
+          color: $color-yellow-1;
+          &.icon-star-light {
+            color: $color-gray-3;
+          }
+        }
+      }
+
+      .number-review {
+        @include majority-open-sans-text();
+        color: $color-gray-3;
+        font-weight: 700;
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
+    .description {
+      @include majority-open-sans-text();
+      font-weight: 700;
+      font-size: 17px;
+    }
+    .details {
+      display: flex;
+      ul {
+        @include reset-list();
+        margin-right: 32px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        &.break-list {
+          margin-left: 59px;
+        }
+
+        li {
+          @include majority-open-sans-text();
+          font-size: 14px;
+          color: $color-gray-3;
+
+          font-weight: 700;
+          margin-bottom: 12px;
+          &.Highlighted {
+            color: $color-green-1 !important;
+          }
+        }
+        &.values {
+          li {
+            color: $color-black-1;
+            &.underline {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .buy-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .price {
+        @include majority-poppins-text;
+        color: $color-green-1;
+        font-size: 26px;
+        font-weight: 400;
+        .last-price {
+          font-size: 12px;
+          color: $color-gray-3;
+          text-decoration-line: line-through;
+        }
+      }
+      .btns {
+        display: flex;
+        .number-of-products {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 14px 16px;
+          margin-right: 25px;
+          background: #f9f9f9;
+          border: 1px solid #d1d1d1;
+          border-radius: 12px;
+          gap: 16px;
+          .number {
+            @include majority-open-sans-text();
+            color: $color-gray-3;
+            padding-right: 16px;
+            font-size: 14px;
+            border-right: 1px solid $color-gray-6;
+          }
+          .pcs {
+            @include majority-poppins-text();
+            font-weight: 400;
+            font-size: 12px;
+            color: $color-black-1;
+            .demo-icon {
+              font-size: 6px;
+            }
+          }
+        }
+        .add-to-cart {
+          padding: 12px 16px;
+          width: 140px;
+          span {
+            @include majority-poppins-text();
+            font-size: 15px;
+            font-weight: 400;
+            &.plus {
+              margin-right: 15px;
+              font-size: 20px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: $mobile-breakpoint) {
+  .product-view {
+    flex-direction: column !important;
+    .images {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 80%;
+        height: 80%;
+      }
+    }
+    .content {
+      align-items: flex-start;
+      text-align: center;
+      margin-left: 20px;
+      .title {
+        margin-top: 20px;
+      }
+      .buy-section {
+        align-items: flex-start;
+        flex-direction: column;
+
+        .price {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

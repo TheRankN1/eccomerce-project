@@ -1,0 +1,284 @@
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.button-gray-1 {
+  width: 167px;
+  height: 48px;
+  background: #F5F5F5;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-green-1 {
+  width: 90px;
+  height: 36px;
+  border: 2px solid #46760A;
+  border-radius: 12px;
+  background-color: #6A983C;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.button-border-green-1 {
+  width: 163px;
+  border: 2px solid #92C064;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-border-green-1 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 22px;
+  color: #151515;
+}
+.button-border-green-1 i {
+  font-size: 16px;
+  color: #6A983C;
+}
+
+.product-view .images {
+  position: relative;
+}
+.product-view .images img {
+  width: 569px;
+  height: 436px;
+  margin-right: 32px;
+  border-radius: 12px;
+}
+.product-view .images .tags {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+}
+.product-view .images .tags .green-tag {
+  background: #F4F8EC;
+  border-radius: 12px;
+  padding: 0px 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+}
+.product-view .images .tags .discount {
+  margin-right: 12px;
+}
+.product-view .content {
+  flex-direction: column;
+}
+.product-view .content .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 32px;
+}
+.product-view .content .review {
+  display: flex;
+  margin-bottom: 42px;
+}
+.product-view .content .review .rating {
+  margin-right: 10px;
+}
+.product-view .content .review .rating .demo-icon {
+  font-size: 16px;
+  color: #FDBC15;
+}
+.product-view .content .review .rating .demo-icon.icon-star-light {
+  color: #A9A9A9;
+}
+.product-view .content .review .number-review {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  color: #A9A9A9;
+  font-weight: 700;
+}
+.product-view .content .review .number-review span {
+  text-decoration: underline;
+}
+.product-view .content .description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  font-weight: 700;
+  font-size: 17px;
+}
+.product-view .content .details {
+  display: flex;
+}
+.product-view .content .details ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.product-view .content .details ul.break-list {
+  margin-left: 59px;
+}
+.product-view .content .details ul li {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  font-size: 14px;
+  color: #A9A9A9;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.product-view .content .details ul li.Highlighted {
+  color: #6A983C !important;
+}
+.product-view .content .details ul.values li {
+  color: #151515;
+}
+.product-view .content .details ul.values li.underline {
+  text-decoration: underline;
+}
+.product-view .content .buy-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-view .content .buy-section .price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+  font-size: 26px;
+  font-weight: 400;
+}
+.product-view .content .buy-section .price .last-price {
+  font-size: 12px;
+  color: #A9A9A9;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+.product-view .content .buy-section .btns {
+  display: flex;
+}
+.product-view .content .buy-section .btns .number-of-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 16px;
+  margin-right: 25px;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  gap: 16px;
+}
+.product-view .content .buy-section .btns .number-of-products .number {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  color: #A9A9A9;
+  padding-right: 16px;
+  font-size: 14px;
+  border-right: 1px solid #D1D1D1;
+}
+.product-view .content .buy-section .btns .number-of-products .pcs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #151515;
+}
+.product-view .content .buy-section .btns .number-of-products .pcs .demo-icon {
+  font-size: 6px;
+}
+.product-view .content .buy-section .btns .add-to-cart {
+  padding: 12px 16px;
+  width: 140px;
+}
+.product-view .content .buy-section .btns .add-to-cart span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.product-view .content .buy-section .btns .add-to-cart span.plus {
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .product-view {
+    flex-direction: column !important;
+  }
+  .product-view .images {
+    display: flex;
+    justify-content: center;
+  }
+  .product-view .images img {
+    width: 80%;
+    height: 80%;
+  }
+  .product-view .content {
+    align-items: flex-start;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .product-view .content .title {
+    margin-top: 20px;
+  }
+  .product-view .content .buy-section {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .product-view .content .buy-section .price {
+    text-align: left;
+  }
+}/*# sourceMappingURL=product-view.css.map */

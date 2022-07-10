@@ -114,7 +114,7 @@
   margin-right: 32px;
 }
 .filter-top .head .grid-view .products {
-  display: flex;
+  display: flex !important;
 }
 .filter-top .head .grid-view .products .number {
   margin-right: 4px;
