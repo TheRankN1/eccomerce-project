@@ -39,8 +39,8 @@
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
-        
-        cursor:pointer;
+
+        cursor: pointer;
       }
 
       i {
@@ -72,7 +72,6 @@
         text-align: center;
         color: $color-black-1;
         margin-bottom: 24px;
-        
 
         &.name {
           font-family: "Poppins";
@@ -86,26 +85,24 @@
     }
   }
 }
-@media (max-width:$mobile-breakpoint) {
-
-  .category-menu{
+@media (max-width: $mobile-breakpoint) {
+  .category-menu {
     flex-direction: column;
   }
-  .routes{
+  .routes {
     justify-content: center;
   }
-  .content{
-    flex-direction: row !important;
-    .arrow-left{
+  .content {
+    .arrow-left {
       margin: 0 !important ;
       margin-left: auto !important;
-      &.right{
+      &.right {
         margin: 0 !important;
         margin-left: 0 !important;
         margin-right: auto !important;
       }
     }
-    &-item{
+    &-item {
       margin: 0 !important;
     }
   }

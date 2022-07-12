@@ -176,10 +176,24 @@ header {
       }
     }
   }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      transition: all 0.3s ease-in-out;
+      background-color: black;
+    }
+  }
   @media (max-width: $tablet-breakpoint) {
     .menu {
       background-color: #fff;
       flex-direction: column;
+      display: none;
+      transition: 0.3s;
       &-item {
         display: flex;
         border-bottom: 1px solid rgba(21, 21, 21, 0.3);
@@ -213,6 +227,39 @@ header {
         margin: 0 auto;
         .placeholder {
           flex: 1;
+        }
+      }
+    }
+    .responsive-nav {
+      display: flex;
+      align-items: center;
+      .search {
+        flex: 1;
+      }
+      .hamburger {
+        margin-left: 20px;
+      }
+    }
+    .menu {
+      &.active {
+        display: block;
+      }
+    }
+    .hamburger {
+      display: block;
+    }
+    .hambuger {
+      .active {
+        .bar {
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+          }
+          &:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+          }
         }
       }
     }

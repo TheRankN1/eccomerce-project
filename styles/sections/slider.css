@@ -170,9 +170,6 @@
   .routes {
     justify-content: center;
   }
-  .content {
-    flex-direction: row !important;
-  }
   .content .arrow-left {
     margin: 0 !important;
     margin-left: auto !important;

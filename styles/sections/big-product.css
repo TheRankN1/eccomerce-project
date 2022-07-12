@@ -71,7 +71,7 @@
 }
 .content .product-item {
   margin-left: 32px;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   border-radius: 12px;
   margin-bottom: 32px;
   display: flex;
@@ -131,7 +131,8 @@
   color: #A9A9A9;
   margin-bottom: 12px;
 }
-.content .product-item .product-details .details ul li.Highlighted, .content .product-item .product-details .details ul li span {
+.content .product-item .product-details .details ul li.Highlighted,
+.content .product-item .product-details .details ul li span {
   color: #6A983C;
 }
 .content .product-item .product-transaction {
@@ -195,8 +196,10 @@
 }
 
 @media (max-width: 768px) {
-  .content {
+  .row {
     flex-direction: column !important;
+  }
+  .content {
     justify-content: center;
   }
   .content .product {
