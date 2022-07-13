@@ -210,12 +210,6 @@
           display: flex;
           justify-content: center;
         }
-        // .vitamins {
-        //   @include majority-poppins-text();
-        //   font-weight: 700;
-        //   font-size: 15px;
-        //   margin-bottom: 16px;
-        // }
       }
       .contentAcc {
         @include majority-open-sans-text();
