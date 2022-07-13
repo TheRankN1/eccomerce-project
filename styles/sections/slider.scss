@@ -21,6 +21,7 @@
       font-style: normal;
       font-weight: 600;
       font-size: 18px;
+      margin-left: 32px;
       line-height: 27px;
       color: $color-black-1;
     }
@@ -31,6 +32,7 @@
       align-items: center;
       width: 100px;
       padding: 6px 12px;
+      margin-right: 32px;
       border-radius: 12px;
       background-color: #fff;
       span {
@@ -54,6 +56,9 @@
     align-items: center;
 
     @include arrows();
+    .arrow-left {
+      margin-right: 32px;
+    }
 
     &-item {
       padding: 24px 32px;

@@ -53,6 +53,9 @@
       border-radius: 12px;
       margin-left: 31px;
       height: 322px;
+      &:first-child {
+        margin-left: 0;
+      }
 
       .item-rating {
         display: none;

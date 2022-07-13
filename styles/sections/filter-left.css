@@ -8,7 +8,7 @@
 .button-gray-1 {
   width: 167px;
   height: 48px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 700;
@@ -25,7 +25,7 @@
   height: 36px;
   border: 2px solid #46760A;
   border-radius: 12px;
-  background-color: #6A983C;
+  background-color: #6a983c;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -58,7 +58,7 @@
 }
 .button-border-green-1 i {
   font-size: 16px;
-  color: #6A983C;
+  color: #6a983c;
 }
 
 .filter-left {
@@ -92,7 +92,7 @@
   margin-bottom: 12px;
 }
 .filter-left .categories-item .number {
-  background: #F4F8EC;
+  background: #f4f8ec;
   border-radius: 12px;
   padding: 0px 8px;
   font-family: "Poppins";
@@ -101,7 +101,7 @@
   cursor: pointer;
   font-size: 12px;
   line-height: 18px;
-  color: #6A983C;
+  color: #6a983c;
 }
 .filter-left .brands {
   padding-bottom: 48px;
@@ -122,14 +122,14 @@
   display: none;
 }
 .filter-left .brands-item .square {
-  border: 2px solid #D1D1D1;
+  border: 2px solid #d1d1d1;
   width: 20px;
   height: 20px;
   cursor: pointer;
   margin-right: 10px;
 }
 .filter-left .brands-item .square.active {
-  background-color: #6A983C;
+  background-color: #6a983c;
   border: 1.5px solid #46760a;
   position: relative;
   cursor: pointer;
@@ -151,13 +151,13 @@
   margin-bottom: 16px;
 }
 .filter-left .rating-item .stars .icon-star-full {
-  color: #FDBC15;
+  color: #fdbc15;
 }
 .filter-left .rating-item .stars .icon-star-light {
-  color: #D1D1D1;
+  color: #d1d1d1;
 }
 .filter-left .rating-item .box {
-  border: 2px solid #D1D1D1;
+  border: 2px solid #d1d1d1;
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -174,7 +174,7 @@
 .filter-left .price .parent-ball .max-ball {
   width: 20px;
   height: 20px;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   border-radius: 12px;
   background-color: #fff;
   z-index: 1;
@@ -187,7 +187,7 @@
   width: 250px;
   height: 6px;
   bottom: 6px;
-  background: #EBEBEB;
+  background: #ebebeb;
   position: absolute;
   border-radius: 12px;
   display: flex;
@@ -219,7 +219,7 @@
 .filter-left .price .extreme .min input {
   height: 42px;
   background: #f9f9f9;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   width: 110px;
   border-radius: 12px;
 }
@@ -233,7 +233,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .filter-left .price .extreme .min input:-ms-input-placeholder {
   padding-top: 12px;
@@ -245,7 +245,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .filter-left .price .extreme .min input::placeholder {
   padding-top: 12px;
@@ -257,7 +257,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .filter-left .price .extreme span {
   padding-right: 14px;
@@ -276,7 +276,7 @@
 }
 .filter-left .price .extreme .max input {
   background: #f9f9f9;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d1d1d1;
   border-radius: 12px;
   width: 110px;
   height: 42px;
@@ -291,7 +291,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .filter-left .price .extreme .max input:-ms-input-placeholder {
   padding-top: 12px;
@@ -303,7 +303,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .filter-left .price .extreme .max input::placeholder {
   padding-top: 12px;
@@ -315,7 +315,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .filter-left .price .buttons {
   margin-top: 31px;
@@ -328,7 +328,7 @@
   height: 48px;
 }
 .filter-left .price .buttons .reset {
-  color: #A9A9A9;
+  color: #a9a9a9;
   width: 43px;
   height: 23px;
   border: none;

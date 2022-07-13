@@ -8,7 +8,7 @@
 .button-gray-1 {
   width: 167px;
   height: 48px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 700;
@@ -25,7 +25,7 @@
   height: 36px;
   border: 2px solid #46760A;
   border-radius: 12px;
-  background-color: #6A983C;
+  background-color: #6a983c;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -58,7 +58,7 @@
 }
 .button-border-green-1 i {
   font-size: 16px;
-  color: #6A983C;
+  color: #6a983c;
 }
 
 .products.headline {
@@ -88,12 +88,12 @@
   line-height: 22px;
 }
 .products.headline .routes .go-to i {
-  color: #6A983C;
+  color: #6a983c;
 }
-.products .best-product {
-  padding-left: 0;
+.products.headline .best-product {
+  padding: 0;
 }
-.products .best-product-item:first-child {
+.products.headline .best-product-item.first {
   margin-left: 0;
 }
 

@@ -8,7 +8,7 @@
 .button-gray-1 {
   width: 167px;
   height: 48px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 700;
@@ -25,7 +25,7 @@
   height: 36px;
   border: 2px solid #46760A;
   border-radius: 12px;
-  background-color: #6A983C;
+  background-color: #6a983c;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -58,7 +58,7 @@
 }
 .button-border-green-1 i {
   font-size: 16px;
-  color: #6A983C;
+  color: #6a983c;
 }
 
 .product-view .images {
@@ -69,6 +69,7 @@
   height: 436px;
   margin-right: 32px;
   border-radius: 12px;
+  margin-bottom: 32px;
 }
 .product-view .images .tags {
   position: absolute;
@@ -77,7 +78,7 @@
   display: flex;
 }
 .product-view .images .tags .green-tag {
-  background: #F4F8EC;
+  background: #f4f8ec;
   border-radius: 12px;
   padding: 0px 8px;
   font-family: "Poppins";
@@ -86,7 +87,7 @@
   cursor: pointer;
   font-size: 12px;
   line-height: 18px;
-  color: #6A983C;
+  color: #6a983c;
 }
 .product-view .images .tags .discount {
   margin-right: 12px;
@@ -112,10 +113,10 @@
 }
 .product-view .content .review .rating .demo-icon {
   font-size: 16px;
-  color: #FDBC15;
+  color: #fdbc15;
 }
 .product-view .content .review .rating .demo-icon.icon-star-light {
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .product-view .content .review .number-review {
   font-family: "Open Sans";
@@ -124,7 +125,7 @@
   font-size: 12px;
   line-height: 19px;
   color: #151515;
-  color: #A9A9A9;
+  color: #a9a9a9;
   font-weight: 700;
 }
 .product-view .content .review .number-review span {
@@ -162,12 +163,12 @@
   line-height: 19px;
   color: #151515;
   font-size: 14px;
-  color: #A9A9A9;
+  color: #a9a9a9;
   font-weight: 700;
   margin-bottom: 12px;
 }
 .product-view .content .details ul li.Highlighted {
-  color: #6A983C !important;
+  color: #6a983c !important;
 }
 .product-view .content .details ul.values li {
   color: #151515;
@@ -186,13 +187,13 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 18px;
-  color: #6A983C;
+  color: #6a983c;
   font-size: 26px;
   font-weight: 400;
 }
 .product-view .content .buy-section .price .last-price {
   font-size: 12px;
-  color: #A9A9A9;
+  color: #a9a9a9;
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
 }
@@ -217,10 +218,10 @@
   font-size: 12px;
   line-height: 19px;
   color: #151515;
-  color: #A9A9A9;
+  color: #a9a9a9;
   padding-right: 16px;
   font-size: 14px;
-  border-right: 1px solid #D1D1D1;
+  border-right: 1px solid #d1d1d1;
 }
 .product-view .content .buy-section .btns .number-of-products .pcs {
   font-family: "Poppins";
@@ -253,6 +254,128 @@
   font-size: 20px;
   font-weight: bold;
 }
+.product-view .content .another-options {
+  display: flex;
+}
+.product-view .content .another-options .option {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  padding: 6px 12px;
+  padding-left: 0;
+}
+.product-view .content .another-options .option span {
+  margin-left: 7px;
+}
+.product-view .content .another-options .option .demo-icon {
+  font-size: 12px;
+  color: #e5704b;
+  display: flex;
+  align-items: center;
+}
+.product-view .content .tabs {
+  margin-top: 60px;
+  justify-content: space-between;
+  margin-inline: 0;
+  margin-bottom: 48px;
+}
+.product-view .content .tabs .tab {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  cursor: pointer;
+  padding-bottom: 16px;
+  align-items: center;
+}
+.product-view .content .tabs .tab.active {
+  border-bottom: 1px solid #6a983c;
+}
+.product-view .content .tabs .tab .tab-tag {
+  background: #f4f8ec;
+  border-radius: 12px;
+  padding: 0px 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6a983c;
+  margin-left: 8px;
+}
+.product-view .content .cook-details .origins,
+.product-view .content .cook-details .how-to-cook {
+  margin-bottom: 32px;
+}
+.product-view .content .cook-details .origins .head,
+.product-view .content .cook-details .how-to-cook .head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.product-view .content .cook-details .origins span,
+.product-view .content .cook-details .how-to-cook span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  font-weight: 700;
+  font-size: 14px;
+}
+.product-view .content .cook-details .vitamins {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+.product-view .content .table {
+  width: 600px;
+}
+.product-view .content .table-row {
+  display: flex;
+}
+.product-view .content .table-head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  flex: 1;
+  padding: 8px;
+  font-weight: 400;
+  border-bottom: 1px solid #f5f5f5;
+}
+.product-view .content .table-cell {
+  flex: 1;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #fdfdfd;
+  padding: 8px;
+  color: #575757;
+}
 
 @media (max-width: 768px) {
   .product-view {
@@ -273,12 +396,18 @@
   }
   .product-view .content .title {
     margin-top: 20px;
+    line-height: 30px;
   }
   .product-view .content .buy-section {
     align-items: flex-start;
     flex-direction: column;
+    border: 1px solid #f5f5f5;
+    border-radius: 12px;
   }
   .product-view .content .buy-section .price {
     text-align: left;
+  }
+  .product-view .content .another-options {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=product-view.css.map */

@@ -8,7 +8,7 @@
 .button-gray-1 {
   width: 167px;
   height: 48px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 700;
@@ -25,7 +25,7 @@
   height: 36px;
   border: 2px solid #46760A;
   border-radius: 12px;
-  background-color: #6A983C;
+  background-color: #6a983c;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -58,11 +58,11 @@
 }
 .button-border-green-1 i {
   font-size: 16px;
-  color: #6A983C;
+  color: #6a983c;
 }
 
 .slider {
-  background: #F9F9F9;
+  background: #f9f9f9;
   padding-top: 70px;
   padding-bottom: 90px;
   display: block !important;
@@ -79,6 +79,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
+  margin-left: 32px;
   line-height: 27px;
   color: #151515;
 }
@@ -88,6 +89,7 @@
   align-items: center;
   width: 100px;
   padding: 6px 12px;
+  margin-right: 32px;
   border-radius: 12px;
   background-color: #fff;
 }
@@ -100,7 +102,7 @@
   cursor: pointer;
 }
 .slider .routes .go-to i {
-  color: #6A983C;
+  color: #6a983c;
 }
 .slider .content {
   display: flex;
@@ -134,6 +136,9 @@
   z-index: 1;
   color: #fff;
   font-size: 24px;
+}
+.slider .content .arrow-left {
+  margin-right: 32px;
 }
 .slider .content-item {
   padding: 24px 32px;

@@ -2,58 +2,56 @@
 @import "../partials/text/text";
 @import "../partials/text/buttons";
 @import "../partials/mixins";
-.products{
-    &.headline{
-        padding: 70px 45px;
-        .routes {
-            margin-bottom: 39px;
-            display: flex;
-            justify-content: space-between;
-        
-            span {
-              font-family: "Poppins";
-              font-style: normal;
-              font-weight: 600;
-              font-size: 18px;
-              line-height: 27px;
-              color: $color-black-1;
-            }
-        
-            .go-to {
-              cursor:pointer;
-              span {
-                font-family: "Poppins";
-                font-style: normal;
-                font-weight: 700;
-                font-size: 15px;
-                line-height: 22px;
-              }
-        
-              i {
-                color: $color-green-1;
-              }
-            }
-          }
+.products {
+  &.headline {
+    padding: 70px 45px;
+    .routes {
+      margin-bottom: 39px;
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: $color-black-1;
+      }
+
+      .go-to {
+        cursor: pointer;
+        span {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 22px;
+        }
+
+        i {
+          color: $color-green-1;
+        }
+      }
     }
-   .best-product{
-    padding-left: 0;
-    
-    &-item{
-    &:first-child{
-      margin-left: 0;
+    .best-product {
+      padding: 0;
+      &-item {
+        &.first {
+          margin-left: 0;
+        }
+      }
     }
-  
-   }
   }
 }
-@media (max-width:$mobile-breakpoint) {
-  .products{
-    .best-product{
+
+@media (max-width: $mobile-breakpoint) {
+  .products {
+    .best-product {
       margin-bottom: 40px;
     }
-   
   }
-  .routes{
+  .routes {
     justify-content: center;
-  } 
+  }
 }

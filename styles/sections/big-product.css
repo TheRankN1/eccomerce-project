@@ -8,7 +8,7 @@
 .button-gray-1 {
   width: 167px;
   height: 48px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 700;
@@ -25,7 +25,7 @@
   height: 36px;
   border: 2px solid #46760A;
   border-radius: 12px;
-  background-color: #6A983C;
+  background-color: #6a983c;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -58,7 +58,7 @@
 }
 .button-border-green-1 i {
   font-size: 16px;
-  color: #6A983C;
+  color: #6a983c;
 }
 
 .content {
@@ -128,12 +128,12 @@
   line-height: 19px;
   color: #151515;
   font-size: 14px;
-  color: #A9A9A9;
+  color: #a9a9a9;
   margin-bottom: 12px;
 }
 .content .product-item .product-details .details ul li.Highlighted,
 .content .product-item .product-details .details ul li span {
-  color: #6A983C;
+  color: #6a983c;
 }
 .content .product-item .product-transaction {
   padding: 32px;
@@ -158,7 +158,7 @@
   font-size: 12px;
   line-height: 18px;
   font-size: 12px;
-  color: #A9A9A9;
+  color: #a9a9a9;
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
 }
@@ -174,7 +174,7 @@
   font-size: 12px;
   line-height: 18px;
   font-size: 18px;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .content .product-item .product-transaction .delivery .noDays {
   font-family: "Open Sans";
@@ -183,7 +183,7 @@
   font-size: 12px;
   line-height: 19px;
   color: #151515;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 .content .product-item .product-transaction .buttons .button-green-1 {
   width: 164px;
