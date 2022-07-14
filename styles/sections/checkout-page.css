@@ -64,7 +64,10 @@
 .checkout-container {
   display: flex;
 }
-.checkout-container .title {
+.checkout-container .billing-info {
+  margin-right: 48px;
+}
+.checkout-container .billing-info .title {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -74,7 +77,7 @@
   font-weight: 600;
   margin-bottom: 4px;
 }
-.checkout-container .info {
+.checkout-container .billing-info .info {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -82,35 +85,35 @@
   line-height: 19px;
   color: #151515;
   color: #a9a9a9;
-  margin-bottom: 32px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.checkout-container .info:first-child {
-  flex: 1;
+.checkout-container .billing-info .info span:last-child {
+  margin-right: 32px;
 }
-.checkout-container form .name {
+.checkout-container .billing-info form .name {
   display: flex;
 }
-.checkout-container form .contact {
+.checkout-container .billing-info form .contact {
   display: flex;
 }
-.checkout-container form .address-town {
+.checkout-container .billing-info form .address-town {
   display: flex;
 }
-.checkout-container form .state-postalCode {
+.checkout-container .billing-info form .state-postalCode {
   display: flex;
 }
-.checkout-container form .state-postalCode .choose-country {
+.checkout-container .billing-info form .state-postalCode .choose-country {
   display: flex;
   align-items: center;
   position: relative;
 }
-.checkout-container form .state-postalCode .choose-country .demo-icon {
+.checkout-container .billing-info form .state-postalCode .choose-country .demo-icon {
   position: absolute;
   right: 16px;
 }
-.checkout-container form .change-address {
+.checkout-container .billing-info form .change-address {
   display: flex;
   align-items: center;
   background: #f9f9f9;
@@ -127,14 +130,14 @@
   height: 42px;
   padding-left: 16px;
 }
-.checkout-container form .change-address .square {
+.checkout-container .billing-info form .change-address .square {
   margin-right: 10px;
   width: 20px;
   height: 20px;
   position: relative;
   border: 1.5px solid #d1d1d1;
 }
-.checkout-container form .change-address .square i {
+.checkout-container .billing-info form .change-address .square i {
   position: absolute;
   font-size: 9px;
   top: 50%;
@@ -142,24 +145,24 @@
   left: calc(50% - 2px);
   display: none;
 }
-.checkout-container form .change-address .square.active i {
+.checkout-container .billing-info form .change-address .square.active i {
   display: block;
 }
-.checkout-container form .basic-input {
+.checkout-container .billing-info form .basic-input {
   margin-bottom: 32px;
   margin-right: 32px;
   margin-top: 32px;
   display: flex;
   flex-direction: column;
 }
-.checkout-container form .basic-input input {
+.checkout-container .billing-info form .basic-input input {
   background: #f9f9f9;
   border: 1px solid #d1d1d1;
   border-radius: 12px;
   width: 300px;
   height: 42px;
 }
-.checkout-container form .basic-input input::-moz-placeholder {
+.checkout-container .billing-info form .basic-input input::-moz-placeholder {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -173,7 +176,7 @@
   padding-bottom: 12px;
   padding-right: 16px;
 }
-.checkout-container form .basic-input input:-ms-input-placeholder {
+.checkout-container .billing-info form .basic-input input:-ms-input-placeholder {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -187,7 +190,7 @@
   padding-bottom: 12px;
   padding-right: 16px;
 }
-.checkout-container form .basic-input input::placeholder {
+.checkout-container .billing-info form .basic-input input::placeholder {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -201,20 +204,20 @@
   padding-bottom: 12px;
   padding-right: 16px;
 }
-.checkout-container form .basic-input input:focus {
+.checkout-container .billing-info form .basic-input input:focus {
   outline: none !important;
   text-align: center;
 }
-.checkout-container form .basic-input input:focus::-moz-placeholder {
+.checkout-container .billing-info form .basic-input input:focus::-moz-placeholder {
   text-align: left;
 }
-.checkout-container form .basic-input input:focus:-ms-input-placeholder {
+.checkout-container .billing-info form .basic-input input:focus:-ms-input-placeholder {
   text-align: left;
 }
-.checkout-container form .basic-input input:focus::placeholder {
+.checkout-container .billing-info form .basic-input input:focus::placeholder {
   text-align: left;
 }
-.checkout-container form .basic-input span {
+.checkout-container .billing-info form .basic-input span {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -222,6 +225,299 @@
   line-height: 18px;
   font-size: 12px;
   font-weight: 600;
+}
+.checkout-container .order-summary {
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 32px 16px;
+}
+.checkout-container .order-summary .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.checkout-container .order-summary .order-details {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  color: #a9a9a9;
+}
+.checkout-container .order-summary .order-products-item {
+  border-bottom: 1px solid #f9f9f9;
+}
+.checkout-container .order-summary .order-products-item .image {
+  margin-right: 16px;
+  margin-top: 40px;
+}
+.checkout-container .order-summary .order-products-item .image img {
+  width: 100px;
+  height: 67px;
+}
+.checkout-container .order-summary .order-products-item .image .options .option {
+  margin-bottom: 8px;
+}
+.checkout-container .order-summary .order-products-item .image .options .option span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  color: #a9a9a9;
+}
+.checkout-container .order-summary .order-products-item .image .options .option .demo-icon {
+  color: #e5704b;
+}
+.checkout-container .order-summary .order-products-item .image .options .option.remove .demo-icon {
+  color: #151515;
+  font-weight: bold;
+}
+.checkout-container .order-summary .order-products-item .order-product-details {
+  margin-top: 40px;
+  margin-left: 16px;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .details {
+  margin-top: 4px;
+  display: flex;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .details ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  margin-right: 14px;
+  margin-bottom: 13px;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .details ul.keys {
+  color: #a9a9a9;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .rating {
+  margin-bottom: 18px;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .rating i {
+  color: #fdbc15;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .rating i:last-child {
+  color: #ebebeb;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .buy-details {
+  display: flex;
+  align-items: center;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .buy-details .price {
+  flex: 1;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .buy-details .price span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-size: 18px;
+  color: #6a983c;
+  font-weight: 600;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .buy-details .price .last-price {
+  font-size: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #a9a9a9;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .buy-details .number-of-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  margin-right: 25px;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  gap: 16px;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .buy-details .number-of-products .number {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  color: #a9a9a9;
+  padding-right: 16px;
+  font-size: 14px;
+  border-right: 1px solid #d1d1d1;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .buy-details .number-of-products .pcs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #151515;
+}
+.checkout-container .order-summary .order-products-item .order-product-details .buy-details .number-of-products .pcs .demo-icon {
+  font-size: 6px;
+}
+.checkout-container .order-summary .total-prices {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.checkout-container .order-summary .total-prices ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.checkout-container .order-summary .total-prices ul:last-child {
+  text-align: right;
+}
+.checkout-container .order-summary .total-prices ul li {
+  margin-bottom: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.checkout-container .order-summary .promo-code {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 12px 22px;
+}
+.checkout-container .order-summary .promo-code input {
+  background-color: transparent;
+  border: none;
+  flex: 1;
+}
+.checkout-container .order-summary .promo-code input::-moz-placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #a9a9a9;
+  flex: 1;
+  display: block;
+  width: 400px;
+}
+.checkout-container .order-summary .promo-code input:-ms-input-placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #a9a9a9;
+  flex: 1;
+  display: block;
+  width: 400px;
+}
+.checkout-container .order-summary .promo-code input::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #a9a9a9;
+  flex: 1;
+  display: block;
+  width: 400px;
+}
+.checkout-container .order-summary .promo-code input:focus {
+  outline: none !important;
+  text-align: center;
+}
+.checkout-container .order-summary .promo-code input:focus::-moz-placeholder {
+  text-align: left;
+}
+.checkout-container .order-summary .promo-code input:focus:-ms-input-placeholder {
+  text-align: left;
+}
+.checkout-container .order-summary .promo-code input:focus::placeholder {
+  text-align: left;
+}
+.checkout-container .order-summary .promo-code span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.checkout-container .order-summary .total-order {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.checkout-container .order-summary .total-order .date {
+  display: flex;
+  flex-direction: column;
+}
+.checkout-container .order-summary .total-order .date span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.checkout-container .order-summary .total-order .date span.delivery-date {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #151515;
+  color: #6a983c;
+}
+.checkout-container .order-summary .total-order .price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 26px;
+  color: #6a983c;
+  line-height: 39px;
 }
 
 @media (max-width: 768px) {

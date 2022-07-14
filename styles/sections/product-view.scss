@@ -115,7 +115,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 14px 16px;
+          padding: 6px;
           margin-right: 25px;
           background: #f9f9f9;
           border: 1px solid #d1d1d1;
@@ -130,11 +130,11 @@
           }
           .pcs {
             @include majority-poppins-text();
-            font-weight: 400;
+            font-weight: 600;
             font-size: 12px;
-            color: $color-black-1;
+            margin-right: 8px;
             .demo-icon {
-              font-size: 6px;
+              font-size: 12px;
             }
           }
         }

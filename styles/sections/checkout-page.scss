@@ -5,96 +5,280 @@
 
 .checkout-container {
   display: flex;
-  .title {
-    @include majority-poppins-text();
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 4px;
-  }
-  .info {
-    @include majority-open-sans-text();
-    color: $color-gray-3;
-    margin-bottom: 32px;
-    display: flex;
-    align-items: center;
-    &:first-child {
-      flex: 1;
+  .billing-info {
+    margin-right: 48px;
+    .title {
+      @include majority-poppins-text();
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 4px;
     }
-  }
-  form {
-    .name {
+    .info {
+      @include majority-open-sans-text();
+      color: $color-gray-3;
       display: flex;
-    }
-    .contact {
-      display: flex;
-    }
-    .address-town {
-      display: flex;
-    }
-    .state-postalCode {
-      display: flex;
-      .choose-country {
-        display: flex;
-        align-items: center;
-        position: relative;
-        .demo-icon {
-          position: absolute;
-          right: 16px;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        &:last-child {
+          margin-right: 32px;
         }
       }
     }
-    .change-address {
-      display: flex;
-      align-items: center;
-      background: $color-gray-2;
-      border: 1px solid $color-gray-6;
-      border-radius: 12px;
-      width: 240px;
-      @include majority-open-sans-text();
-      font-size: 14px;
-      height: 42px;
-      padding-left: 16px;
-      .square {
-        margin-right: 10px;
-        width: 20px;
-        height: 20px;
-        position: relative;
-        border: 1.5px solid $color-gray-6;
-        i {
-          position: absolute;
-          font-size: 9px;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          left: calc(50% - 2px);
-          display: none;
+    form {
+      .name {
+        display: flex;
+      }
+      .contact {
+        display: flex;
+      }
+      .address-town {
+        display: flex;
+      }
+      .state-postalCode {
+        display: flex;
+        .choose-country {
+          display: flex;
+          align-items: center;
+          position: relative;
+          .demo-icon {
+            position: absolute;
+            right: 16px;
+          }
         }
-        &.active {
+      }
+      .change-address {
+        display: flex;
+        align-items: center;
+        background: $color-gray-2;
+        border: 1px solid $color-gray-6;
+        border-radius: 12px;
+        width: 240px;
+        @include majority-open-sans-text();
+        font-size: 14px;
+        height: 42px;
+        padding-left: 16px;
+        .square {
+          margin-right: 10px;
+          width: 20px;
+          height: 20px;
+          position: relative;
+          border: 1.5px solid $color-gray-6;
           i {
-            display: block;
+            position: absolute;
+            font-size: 9px;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            left: calc(50% - 2px);
+            display: none;
+          }
+          &.active {
+            i {
+              display: block;
+            }
+          }
+        }
+      }
+      .basic-input {
+        margin-bottom: 32px;
+        margin-right: 32px;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        input {
+          background: $color-gray-2;
+          border: 1px solid $color-gray-6;
+          border-radius: 12px;
+          width: 300px;
+          height: 42px;
+          &::placeholder {
+            @include majority-open-sans-text();
+            font-size: 14px;
+            color: $color-gray-3;
+            padding-left: 21px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-right: 16px;
+          }
+          &:focus {
+            outline: none !important ;
+            text-align: center;
+            &::placeholder {
+              text-align: left;
+            }
+          }
+        }
+        span {
+          @include majority-poppins-text();
+          font-size: 12px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .order-summary {
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    padding: 32px 16px;
+    .title {
+      @include majority-poppins-text();
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .order-details {
+      @include majority-open-sans-text();
+      color: $color-gray-3;
+    }
+    .order-products {
+      &-item {
+        border-bottom: 1px solid $color-gray-2;
+        .image {
+          margin-right: 16px;
+          margin-top: 40px;
+          img {
+            width: 100px;
+            height: 67px;
+          }
+          .options {
+            .option {
+              margin-bottom: 8px;
+              span {
+                @include majority-open-sans-text();
+                color: $color-gray-3;
+              }
+              .demo-icon {
+                color: $color-red-1;
+              }
+              &.remove {
+                .demo-icon {
+                  color: $color-black-1;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+        .order-product-details {
+          margin-top: 40px;
+          margin-left: 16px;
+          .title {
+            @include majority-poppins-text();
+            font-weight: 500;
+            font-size: 15px;
+          }
+          .details {
+            margin-top: 4px;
+            display: flex;
+            ul {
+              @include reset-list();
+              @include majority-open-sans-text();
+              margin-right: 14px;
+              margin-bottom: 13px;
+              &.keys {
+                color: $color-gray-3;
+              }
+            }
+          }
+          .rating {
+            margin-bottom: 18px;
+            i {
+              color: $color-yellow-1;
+              &:last-child {
+                color: $color-gray-7;
+              }
+            }
+          }
+          .buy-details {
+            display: flex;
+            align-items: center;
+            .price {
+              flex: 1;
+              span {
+                @include majority-poppins-text();
+                font-size: 18px;
+                color: $color-green-1;
+                font-weight: 600;
+              }
+              .last-price {
+                font-size: 12px;
+                @include majority-poppins-text();
+                font-size: 12px;
+                font-weight: 600;
+                color: $color-gray-3;
+                text-decoration-line: line-through;
+              }
+            }
+            .number-of-products {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 6px;
+              margin-right: 25px;
+              background: #f9f9f9;
+              border: 1px solid #d1d1d1;
+              border-radius: 12px;
+              gap: 16px;
+              .number {
+                @include majority-open-sans-text();
+                color: $color-gray-3;
+                padding-right: 16px;
+                font-size: 14px;
+                border-right: 1px solid $color-gray-6;
+              }
+              .pcs {
+                @include majority-poppins-text();
+                font-weight: 400;
+                font-size: 12px;
+                color: $color-black-1;
+                .demo-icon {
+                  font-size: 6px;
+                }
+              }
+            }
           }
         }
       }
     }
-    .basic-input {
-      margin-bottom: 32px;
-      margin-right: 32px;
-      margin-top: 32px;
+    .total-prices {
       display: flex;
-      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 40px;
+      ul {
+        @include reset-list();
+        &:last-child {
+          text-align: right;
+        }
+        li {
+          margin-bottom: 12px;
+          @include majority-poppins-text();
+          font-weight: 600;
+          font-size: 12px;
+        }
+      }
+    }
+    .promo-code {
+      display: flex;
+      margin-top: 32px;
+      align-items: center;
+      background: $color-gray-2;
+      border: 1px solid $color-gray-6;
+      border-radius: 12px;
+      padding: 12px 22px;
       input {
-        background: $color-gray-2;
-        border: 1px solid $color-gray-6;
-        border-radius: 12px;
-        width: 300px;
-        height: 42px;
+        background-color: transparent;
+        border: none;
+        flex: 1;
         &::placeholder {
-          @include majority-open-sans-text();
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
           font-size: 14px;
+          line-height: 19px;
           color: $color-gray-3;
-          padding-left: 21px;
-          padding-top: 12px;
-          padding-bottom: 12px;
-          padding-right: 16px;
+          flex: 1;
+          display: block;
+          width: 400px;
         }
         &:focus {
           outline: none !important ;
@@ -106,8 +290,34 @@
       }
       span {
         @include majority-poppins-text();
-        font-size: 12px;
+        font-weight: 700;
+        font-size: 15px;
+      }
+    }
+    .total-order {
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+      justify-content: space-between;
+      .date {
+        display: flex;
+        flex-direction: column;
+        span {
+          @include majority-poppins-text();
+          font-weight: 600;
+          font-size: 12px;
+          &.delivery-date {
+            @include majority-open-sans-text();
+            color: $color-green-1;
+          }
+        }
+      }
+      .price {
+        @include majority-poppins-text();
         font-weight: 600;
+        font-size: 26px;
+        color: $color-green-1;
+        line-height: 39px;
       }
     }
   }
