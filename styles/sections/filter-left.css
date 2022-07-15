@@ -64,6 +64,7 @@
 .filter-left {
   padding-left: 46px;
   padding-top: 64px;
+  background-color: #fff;
 }
 .filter-left .title {
   font-family: "Poppins";
@@ -338,6 +339,8 @@
 @media (max-width: 768px) {
   .filter-left {
     margin: 0 auto;
+    margin-bottom: 60px;
+    padding-left: 0;
   }
   .filter-left .categories,
 .filter-left .brands,

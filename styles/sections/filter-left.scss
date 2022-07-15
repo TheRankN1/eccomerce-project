@@ -6,6 +6,7 @@
 .filter-left {
   padding-left: 46px;
   padding-top: 64px;
+  background-color: #fff;
 
   .title {
     @include majority-poppins-text();
@@ -242,7 +243,8 @@
 @media (max-width: $mobile-breakpoint) {
   .filter-left {
     margin: 0 auto;
-
+    margin-bottom: 60px;
+    padding-left: 0;
     .categories,
     .brands,
     .rating,

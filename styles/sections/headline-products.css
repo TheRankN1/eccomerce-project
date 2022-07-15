@@ -63,6 +63,7 @@
 
 .products.headline {
   padding: 70px 45px;
+  padding-inline: 0;
 }
 .products.headline .routes {
   margin-bottom: 39px;
@@ -74,11 +75,13 @@
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
+  margin-left: 45px;
   line-height: 27px;
   color: #151515;
 }
 .products.headline .routes .go-to {
   cursor: pointer;
+  margin-right: 45px;
 }
 .products.headline .routes .go-to span {
   font-family: "Poppins";
@@ -93,8 +96,11 @@
 .products.headline .best-product {
   padding: 0;
 }
+.products.headline .best-product:last-child {
+  margin-right: 45px;
+}
 .products.headline .best-product-item.first {
-  margin-left: 0;
+  margin-left: 45px;
 }
 
 @media (max-width: 768px) {

@@ -23,9 +23,9 @@
 .button-green-1 {
   width: 90px;
   height: 36px;
-  border: 2px solid #46760A;
+  border: 2px solid #46760a;
   border-radius: 12px;
-  background-color: #6a983c;
+  background-color: #f4f8ec;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -35,12 +35,12 @@
   align-items: center;
   justify-content: center;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .button-border-green-1 {
   width: 163px;
-  border: 2px solid #92C064;
+  border: 2px solid #92c064;
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
@@ -70,6 +70,7 @@
 }
 .products.blog-content .left-options {
   margin-right: 48px;
+  margin-left: 45px;
 }
 .products .row {
   margin-bottom: 57px;
@@ -205,9 +206,6 @@
   font-size: 18px;
   color: #151515;
   line-height: 27px;
-}
-.products .best-product-item .item-footer .button-green-1 {
-  background-color: green;
 }
 .products .best-product-item .first-price {
   font-family: "Poppins";

@@ -23,9 +23,9 @@
 .button-green-1 {
   width: 90px;
   height: 36px;
-  border: 2px solid #46760A;
+  border: 2px solid #46760a;
   border-radius: 12px;
-  background-color: #6a983c;
+  background-color: #f4f8ec;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -35,12 +35,12 @@
   align-items: center;
   justify-content: center;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .button-border-green-1 {
   width: 163px;
-  border: 2px solid #92C064;
+  border: 2px solid #92c064;
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
@@ -62,16 +62,16 @@
 }
 
 .filter-top {
-  padding-left: 45px;
-  padding-right: 45px;
+  background-color: #fff;
   padding-top: 16px;
   display: block !important;
 }
 .filter-top .pages {
-  margin-bottom: 24px;
+  padding-bottom: 24px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
+  margin-left: 45px;
   font-size: 12px;
   line-height: 16px;
   color: #151515;
@@ -83,6 +83,7 @@
   display: flex;
 }
 .filter-top .head .title {
+  margin-left: 45px;
   flex: 1;
   font-family: "Poppins";
   font-style: normal;
@@ -111,7 +112,7 @@
   font-size: 12px;
   line-height: 16px;
   color: #e4e4e4;
-  margin-right: 32px;
+  margin-right: 45px;
 }
 .filter-top .head .grid-view .products {
   display: flex !important;
@@ -133,6 +134,7 @@
   color: #6a983c;
 }
 .filter-top .filter {
+  margin-left: 45px;
   display: flex;
   align-items: center;
 }
@@ -278,8 +280,9 @@
   border-radius: 12px;
 }
 .filter-top .applied-filtres {
+  margin-left: 45px;
   margin-top: 16px;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   display: flex;
 }
 .filter-top .applied-filtres span {

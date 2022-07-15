@@ -63,11 +63,10 @@
 
 .content {
   display: flex;
+  background-color: #fff;
 }
 .content .product {
   padding-top: 64px;
-  padding-right: 45px;
-  padding-left: 45px;
 }
 .content .product-item {
   margin-left: 32px;
@@ -80,6 +79,7 @@
   width: 268px;
   height: 280px;
   margin-right: 32px;
+  border-radius: 12px;
 }
 .content .product-item .product-details {
   padding: 32px;
@@ -204,6 +204,7 @@
   }
   .content .product {
     margin: 0 auto;
+    padding: 0;
   }
   .content .product-item {
     flex-direction: column;

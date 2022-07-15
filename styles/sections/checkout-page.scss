@@ -4,9 +4,11 @@
 @import "../partials/mixins";
 
 .checkout-container {
+  background-color: #fff;
   display: flex;
   .billing-info {
     margin-right: 48px;
+    margin-left: 45px;
     .title {
       @include majority-poppins-text();
       font-size: 22px;
@@ -19,11 +21,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      span {
-        &:last-child {
-          margin-right: 32px;
-        }
-      }
     }
     form {
       .name {
@@ -85,6 +82,9 @@
         margin-top: 32px;
         display: flex;
         flex-direction: column;
+        &:nth-child(even) {
+          margin-right: 0;
+        }
         input {
           background: $color-gray-2;
           border: 1px solid $color-gray-6;
@@ -117,6 +117,8 @@
     }
   }
   .order-summary {
+    margin-right: 45px;
+    background-color: #fff;
     border: 1px solid #d1d1d1;
     border-radius: 12px;
     padding: 32px 16px;

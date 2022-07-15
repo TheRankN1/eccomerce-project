@@ -5,6 +5,7 @@
 .products {
   &.headline {
     padding: 70px 45px;
+    padding-inline: 0;
     .routes {
       margin-bottom: 39px;
       display: flex;
@@ -15,12 +16,14 @@
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
+        margin-left: 45px;
         line-height: 27px;
         color: $color-black-1;
       }
 
       .go-to {
         cursor: pointer;
+        margin-right: 45px;
         span {
           font-family: "Poppins";
           font-style: normal;
@@ -36,9 +39,12 @@
     }
     .best-product {
       padding: 0;
+      &:last-child {
+        margin-right: 45px;
+      }
       &-item {
         &.first {
-          margin-left: 0;
+          margin-left: 45px;
         }
       }
     }

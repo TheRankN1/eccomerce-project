@@ -4,12 +4,13 @@
 @import "../partials/mixins";
 
 .product-view {
+  background-color: #fff;
   .images {
     position: relative;
+    margin-left: 45px;
     img {
       width: 569px;
       height: 436px;
-      margin-right: 32px;
       border-radius: 12px;
       margin-bottom: 32px;
     }
@@ -27,6 +28,7 @@
     }
   }
   .product-content {
+    margin-right: 45px;
     flex-direction: column;
     .title {
       @include majority-poppins-text();

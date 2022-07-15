@@ -3,67 +3,74 @@
 @import "../partials/text/buttons";
 @import "../partials/mixins";
 
-.more-products{
+.more-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  .pages {
     display: flex;
-    justify-content: space-between;
+    span {
+      margin-left: 45px;
+      @include majority-open-sans-text();
+      color: $color-gray-3;
+    }
+    ul {
+      @include reset-list();
+      display: flex;
+      margin-left: 8px;
+      li {
+        cursor: pointer;
+        margin-right: 8px;
+        @include majority-open-sans-text();
+        &:last-child {
+          margin-right: 0;
+        }
+        &.active {
+          color: $color-green-1;
+        }
+      }
+    }
+  }
+  .button-green-1 {
+    width: 214px;
+    span {
+      margin-right: 10px;
+      @include majority-poppins-text();
+      font-size: 15px;
+      color: #fff;
+    }
+    .demo-icon {
+      font-size: 6px;
+    }
+  }
+  .noProducts {
+    display: flex;
     align-items: center;
-    padding: 32px 45px;
-    .pages{
-        display: flex;
-        span{
-            @include majority-open-sans-text();      
-            color:$color-gray-3;
-        }
-        ul{
-            @include reset-list();
-            display: flex;
-            margin-left: 8px;
-            li{
-                cursor: pointer;
-                margin-right: 8px;
-                @include majority-open-sans-text();   
-                &:last-child{
-                    margin-right: 0;
-                }
-               &.active{
-                color:$color-green-1;
-               }
-            }
-        }
-    }
-    .button-green-1{
-        width: 214px;
-        span{
-            margin-right: 10px;
-            @include majority-poppins-text();
-            font-size:15px;
-            color:#fff;
-        }
-        .demo-icon{
-            font-size:6px;
-        }
-    }
-    .noProducts{
-        display: flex;
-        align-items: center;
+    margin-right: 45px;
 
-        .no{
-            @include greenTag();
-            margin-right: 4px;
-        }
-        span{
-            @include majority-open-sans-text();
-            color:$color-gray-3;
-        }
+    .no {
+      @include greenTag();
+      margin-right: 4px;
     }
+    span {
+      @include majority-open-sans-text();
+      color: $color-gray-3;
+    }
+  }
 }
 
-@media (max-width:$mobile-breakpoint) {
-    .more-products{
+@media (max-width: $mobile-breakpoint) {
+  .more-products {
     justify-content: center;
     flex-direction: column;
-        .pages{
-            margin-bottom: 30px;
-        }
+    .pages {
+      margin-bottom: 30px;
+      span {
+        margin-left: 0;
+      }
     }
+  }
 }

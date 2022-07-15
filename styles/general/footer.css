@@ -1,7 +1,5 @@
 footer {
   font-family: "Poppins", sans-serif;
-  padding-right: 45px;
-  padding-left: 45px;
   padding-top: 64px;
   display: block !important;
   background-color: #fff;
@@ -10,6 +8,12 @@ footer .footer-top {
   padding-bottom: 48px;
   display: flex;
   justify-content: space-between;
+}
+footer .footer-top:first-child {
+  margin-left: 22px;
+}
+footer .footer-top:last-child {
+  margin-right: 45px;
 }
 footer .footer-top.item {
   display: flex;
@@ -40,11 +44,13 @@ footer .footer-top ul li:hover {
 }
 footer .footer-content .title {
   color: #151515;
+  margin-left: 45px;
 }
 footer .footer-content ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-left: 45px;
 }
 footer .footer-content ul li {
   display: inline-flex;
@@ -60,8 +66,15 @@ footer .footer-content ul li {
 }
 footer .footer-copyright {
   padding-top: 64px;
+  margin-left: 45px;
   padding-bottom: 64px;
   font-size: 14px;
   line-height: 19px;
   font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .footer-copyright {
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=footer.css.map */

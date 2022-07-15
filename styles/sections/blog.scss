@@ -6,6 +6,7 @@
 .blog {
   padding: 65px 45px;
   display: block !important;
+  padding-inline: 0;
   background-color: #fff;
   .routes {
     margin-bottom: 39px;
@@ -40,8 +41,14 @@
   .content {
     display: flex;
     justify-content: space-between;
+    gap: 32px;
+    &:first-child {
+      margin-left: 45px;
+    }
+    &:last-child {
+      margin-right: 45px;
+    }
     &.blog-container {
-      gap: 32px;
       margin-bottom: 48px;
     }
     .dinner-tips {

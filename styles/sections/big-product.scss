@@ -4,10 +4,9 @@
 @import "../partials/mixins";
 .content {
   display: flex;
+  background-color: #fff;
   .product {
     padding-top: 64px;
-    padding-right: 45px;
-    padding-left: 45px;
     &-item {
       margin-left: 32px;
       border: 1px solid #d1d1d1;
@@ -20,6 +19,7 @@
         width: 268px;
         height: 280px;
         margin-right: 32px;
+        border-radius: 12px;
       }
       .product-details {
         padding: 32px;
@@ -115,6 +115,7 @@
     justify-content: center;
     .product {
       margin: 0 auto;
+      padding: 0;
       &-item {
         flex-direction: column;
         border: none;
