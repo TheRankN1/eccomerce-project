@@ -6,6 +6,7 @@
 .filter-left {
   padding-left: 46px;
   padding-top: 64px;
+  margin-right: 50px;
   background-color: #fff;
 
   .title {
@@ -21,7 +22,7 @@
       align-items: center;
 
       span {
-        margin-right: 100px;
+        margin-right: 130px;
         font-size: 14px;
         @include majority-open-sans-text();
         margin-bottom: 12px;

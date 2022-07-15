@@ -16,6 +16,7 @@
 
   .row {
     margin-bottom: 57px;
+    margin-right: 45px;
   }
 
   .best-product {
@@ -66,6 +67,9 @@
       border-radius: 12px;
       margin-left: 31px;
       height: 322px;
+      &.blog-product {
+        border: none;
+      }
       &:first-child {
         margin-left: 0;
       }
@@ -224,5 +228,10 @@
         font-size: 24px;
       }
     }
+  }
+}
+@media (max-width: $mobile-breakpoint) {
+  .left-options {
+    margin: 0 !important;
   }
 }

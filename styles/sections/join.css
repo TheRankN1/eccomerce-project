@@ -23,9 +23,9 @@
 .button-green-1 {
   width: 90px;
   height: 36px;
-  border: 2px solid #46760A;
+  border: 2px solid #46760a;
   border-radius: 12px;
-  background-color: #6a983c;
+  background-color: #f4f8ec;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -35,12 +35,12 @@
   align-items: center;
   justify-content: center;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .button-border-green-1 {
   width: 163px;
-  border: 2px solid #92C064;
+  border: 2px solid #92c064;
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
@@ -163,4 +163,22 @@
   font-size: 15px;
   font-weight: 700;
   padding-right: 16px;
+}
+
+@media (max-width: 768px) {
+  .join {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .join .title {
+    margin-bottom: 20px;
+  }
+  .join .description {
+    margin-bottom: 20px;
+  }
+  .join .subscribe-input {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=join.css.map */

@@ -75,6 +75,7 @@ footer .footer-copyright {
 
 @media (max-width: 768px) {
   .footer-copyright {
-    margin-left: 0;
+    margin-left: 0 !important;
+    padding-top: 0 !important;
   }
 }/*# sourceMappingURL=footer.css.map */

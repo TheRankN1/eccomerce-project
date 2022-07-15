@@ -56,3 +56,20 @@
     }
   }
 }
+@media (max-width: $mobile-breakpoint) {
+  .join {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    .title {
+      margin-bottom: 20px;
+    }
+    .description {
+      margin-bottom: 20px;
+    }
+    .subscribe-input {
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+}

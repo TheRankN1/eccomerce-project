@@ -23,9 +23,9 @@
 .button-green-1 {
   width: 90px;
   height: 36px;
-  border: 2px solid #46760A;
+  border: 2px solid #46760a;
   border-radius: 12px;
-  background-color: #6a983c;
+  background-color: #6a983c !important;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -35,12 +35,15 @@
   align-items: center;
   justify-content: center;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.button-green-1.reset {
+  background-color: transparent !important;
 }
 
 .button-border-green-1 {
   width: 163px;
-  border: 2px solid #92C064;
+  border: 2px solid #92c064;
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
@@ -64,6 +67,7 @@
 .filter-left {
   padding-left: 46px;
   padding-top: 64px;
+  margin-right: 50px;
   background-color: #fff;
 }
 .filter-left .title {
@@ -82,7 +86,7 @@
   align-items: center;
 }
 .filter-left .categories-item span {
-  margin-right: 100px;
+  margin-right: 130px;
   font-size: 14px;
   font-family: "Open Sans";
   font-style: normal;

@@ -235,4 +235,8 @@
     justify-content: center;
     margin-top: 50px;
   }
+  .blog .content:first-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }/*# sourceMappingURL=blog.css.map */

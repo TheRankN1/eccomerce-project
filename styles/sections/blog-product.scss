@@ -2,3 +2,36 @@
 @import "../partials/text/text";
 @import "../partials/text/buttons";
 @import "../partials/mixins";
+
+.blog-product {
+  margin-left: 0 !important;
+  img {
+    margin-bottom: 24px;
+  }
+  .tag {
+    @include greenTag();
+    width: 40px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .title {
+    @include majority-poppins-text();
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .author {
+    @include majority-open-sans-text();
+    span {
+      margin-right: 16px;
+    }
+  }
+}
+@media (max-width: $mobile-breakpoint) {
+  .row {
+    margin-right: 0 !important;
+    .blog-product {
+      margin: 0 auto !important;
+    }
+  }
+}

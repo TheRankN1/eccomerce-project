@@ -19,7 +19,7 @@
   height: 36px;
   border: 2px solid #46760a;
   border-radius: 12px;
-  background-color: $color-green-2;
+  background-color: $color-green-1 !important;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -30,6 +30,9 @@
   justify-content: center;
   line-height: 22px;
   color: #ffffff;
+  &.reset {
+    background-color: transparent !important;
+  }
 }
 .button-border-green-1 {
   width: 163px;
