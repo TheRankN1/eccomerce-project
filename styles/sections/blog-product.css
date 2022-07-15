@@ -1,0 +1,62 @@
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.button-gray-1 {
+  width: 167px;
+  height: 48px;
+  background: #f5f5f5;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-green-1 {
+  width: 90px;
+  height: 36px;
+  border: 2px solid #46760A;
+  border-radius: 12px;
+  background-color: #6a983c;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.button-border-green-1 {
+  width: 163px;
+  border: 2px solid #92C064;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-border-green-1 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 22px;
+  color: #151515;
+}
+.button-border-green-1 i {
+  font-size: 16px;
+  color: #6a983c;
+}/*# sourceMappingURL=blog-product.css.map */

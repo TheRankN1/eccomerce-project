@@ -7,21 +7,20 @@
   background: $color-gray-2;
   padding-top: 70px;
   padding-bottom: 90px;
-  display: block !important;
-
+  max-width: 1350px;
+  position: relative;
+  margin: 0 auto;
   .routes {
     margin-bottom: 39px;
+    padding-left: 75px;
+    padding-right: 75px;
     display: flex;
     justify-content: space-between;
-    padding-left: 45px;
-    padding-right: 45px;
-
     span {
       font-family: "Poppins";
       font-style: normal;
       font-weight: 600;
       font-size: 18px;
-      margin-left: 32px;
       line-height: 27px;
       color: $color-black-1;
     }
@@ -32,7 +31,6 @@
       align-items: center;
       width: 100px;
       padding: 6px 12px;
-      margin-right: 32px;
       border-radius: 12px;
       background-color: #fff;
       span {
@@ -54,10 +52,15 @@
   .content {
     display: flex;
     align-items: center;
-
-    @include arrows();
+    gap: 32px;
     .arrow-left {
-      margin-right: 32px;
+      @include arrow();
+      border-top-left-radius: 25%;
+      border-bottom-left-radius: 25%;
+      i {
+        color: #fff;
+        font-size: 24px;
+      }
     }
 
     &-item {
@@ -67,7 +70,6 @@
       background: #ffffff;
       border: 1px solid #f1f1f1;
       border-radius: 12px;
-      margin-right: 32px;
       span {
         font-family: "Poppins";
         font-style: normal;
@@ -88,27 +90,42 @@
         }
       }
     }
+    .arrow-right {
+      @include arrow();
+      border-top-right-radius: 25%;
+      border-bottom-right-radius: 25%;
+      i {
+        z-index: 1;
+        color: #fff;
+        font-size: 24px;
+      }
+    }
   }
 }
 @media (max-width: $mobile-breakpoint) {
-  .category-menu {
-    flex-direction: column;
-  }
-  .routes {
-    justify-content: center;
-  }
-  .content {
-    .arrow-left {
-      margin: 0 !important ;
-      margin-left: auto !important;
-      &.right {
+  .slider {
+    padding-inline: 0 !important;
+    .category-menu {
+      flex-direction: column;
+    }
+    .routes {
+      justify-content: space-between;
+    }
+    .content {
+      flex-direction: row !important;
+      padding: 0 !important;
+      .arrow-left {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+      }
+      .arrow-right {
         margin: 0 !important;
         margin-left: 0 !important;
         margin-right: auto !important;
       }
-    }
-    &-item {
-      margin: 0 !important;
+      &-item {
+        margin: 0 !important;
+      }
     }
   }
 }

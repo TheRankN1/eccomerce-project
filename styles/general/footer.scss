@@ -1,22 +1,22 @@
 @import "../partials/mixins";
 @import "../partials/variables";
 
-
 footer {
   font-family: "Poppins", sans-serif;
-  margin-right: 45px;
-  margin-left: 45px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-top: 64px;
   display: block !important;
+  background-color: #fff;
   .footer-top {
-    padding-top: 64px;
     padding-bottom: 48px;
     display: flex;
     justify-content: space-between;
-    
-    &.item{
+
+    &.item {
       display: flex;
       flex-direction: column;
-      justify-content:start;
+      justify-content: start;
     }
     .title {
       color: $color-black-1;
@@ -28,7 +28,6 @@ footer {
     }
 
     ul {
-      
       @include reset-list;
 
       li {
@@ -43,18 +42,15 @@ footer {
         cursor: pointer;
       }
     }
-
   }
 
   .footer-content {
-
-    
     .title {
       color: $color-black-1;
     }
     ul {
-        @include reset-list;
-        
+      @include reset-list;
+
       li {
         display: inline-flex;
         padding: 4px 10px;
@@ -71,10 +67,10 @@ footer {
   }
 
   .footer-copyright {
-   padding-top: 64px;
-   padding-bottom: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
     font-size: 14px;
-line-height: 19px;
-font-family: 'Open Sans', sans-serif;
+    line-height: 19px;
+    font-family: "Open Sans", sans-serif;
   }
 }

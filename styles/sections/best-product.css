@@ -62,7 +62,14 @@
 }
 
 .products {
+  background: #ffffff;
   display: block !important;
+}
+.products.blog-content {
+  display: flex !important;
+}
+.products.blog-content .left-options {
+  margin-right: 48px;
 }
 .products .row {
   margin-bottom: 57px;
@@ -71,9 +78,11 @@
   padding: 63px 45px 73px 45px;
   display: flex;
 }
+.products .best-product.blog {
+  padding: 0;
+}
 .products .best-product-menu {
   margin-right: 110px;
-  padding-left: 45px;
 }
 .products .best-product-menu .title {
   font-family: "Poppins";
@@ -89,6 +98,9 @@
   list-style: none;
   color: #6a983c;
   margin-bottom: 48px;
+}
+.products .best-product-menu ul.gray {
+  color: #a9a9a9;
 }
 .products .best-product-menu ul li {
   font-family: "Open Sans";
@@ -208,12 +220,15 @@
 
 @media (max-width: 768px) {
   .best-product {
-    flex-direction: column;
-    position: relative;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 0 !important;
     margin-top: 20px !important;
     margin-bottom: 0 !important;
+  }
+  .best-product.show-on-mobile {
+    flex-direction: row;
   }
   .best-product-item {
     margin: 0 auto !important;
@@ -225,10 +240,8 @@
     padding-left: 0 !important;
   }
   .best-product .arrow-left {
-    margin-left: 5px;
-    border-top-left-radius: 25%;
-    border-bottom-left-radius: 25%;
     width: 32px;
+    left: 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
     height: 48px;
     background-color: #151515;
@@ -237,30 +250,30 @@
     cursor: pointer;
     justify-content: center;
     padding: 0;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
   }
   .best-product .arrow-left i {
     color: #fff;
     font-size: 24px;
   }
-  .best-product .arrow-left.right {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 25%;
-    border-bottom-right-radius: 25%;
+  .best-product .arrow-right {
+    width: 32px;
+    left: 0;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    height: 48px;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    padding: 0;
+    border-top-right-radius: 25% !important;
+    border-bottom-right-radius: 25% !important;
   }
-  .best-product .arrow-left.right i {
+  .best-product .arrow-right i {
     z-index: 1;
     color: #fff;
     font-size: 24px;
-  }
-  .best-product .arrow-left {
-    position: absolute;
-    border-top-left-radius: 25%;
-    border-bottom-left-radius: 25%;
-    top: 50%;
-    right: 80px;
-  }
-  .best-product .arrow-left.right {
-    left: 75px;
   }
 }/*# sourceMappingURL=best-product.css.map */

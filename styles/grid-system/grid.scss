@@ -1,28 +1,46 @@
-
-.row{
-    display: flex;
-    margin: 0 auto;
-    max-width:1260px;
+$column-grid: 12;
+$gutter-grid: 3px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 1023px;
+$breakpoint-default: $breakpoint-md + 1px;
+$page-width: 1140px;
+$responsive-grid: (
+  "min-width:#{$breakpoint-default}": "",
+  "max-width:#{$breakpoint-md}": "-md",
+  "max-width:#{$breakpoint-sm}": "-sm",
+);
+.container {
+  max-width: $page-width;
+  margin: 0 auto;
+  @media (max-width: $breakpoint-default) {
+    width: calc(100% - 3 * #{$gutter-grid});
+    max-width: calc(100% - 3 * #{$gutter-grid});
+  }
 }
-$colwidth: calc(100% / 12);
-@for $i from 1 through 12 { // de la 1 la 12
-  .col-#{$i} {      // col de i 
-    width: $colwidth * $i;   // ii da 8,3 * 1 la col 1 , dupa 8,3 * 2 si tot asa , pana la 8,3 * 12 
-  }
-  @media(max-width: 1024px) {
-    
-    .col-md-#{$i}  {
-      width: $colwidth * $i;
-      
-     
+.row {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1260px;
+}
+[class^="col-"] {
+  margin-bottom: $gutter-grid;
+  margin-top: $gutter-grid;
+  background: #fff;
+  border-radius: 8px;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  padding: 24px 0;
+  flex: 0 0 auto;
+}
+@each $mediaQuery, $name in $responsive-grid {
+  @for $number from 1 through $column-grid {
+    @media ($mediaQuery) {
+      .col#{$name}-#{$number} {
+        width: calc(#{$number}/#{$column-grid} * 100% - #{$gutter-grid});
+        margin-left: calc(#{$gutter-grid}/ 2);
+        margin-right: calc(#{$gutter-grid}/ 2);
+      }
     }
-  }
-  @media(max-width: 768px) {
-    .col-sm-#{$i} {
-      
-      width: $colwidth * $i;
-      
-    }
-    
   }
 }

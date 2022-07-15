@@ -4,7 +4,14 @@
 @import "../partials/mixins";
 
 .products {
+  background: #ffffff;
   display: block !important;
+  &.blog-content {
+    display: flex !important;
+    .left-options {
+      margin-right: 48px;
+    }
+  }
 
   .row {
     margin-bottom: 57px;
@@ -13,10 +20,12 @@
   .best-product {
     padding: 63px 45px 73px 45px;
     display: flex;
+    &.blog {
+      padding: 0;
+    }
 
     &-menu {
       margin-right: 110px;
-      padding-left: 45px;
 
       .title {
         font-family: "Poppins";
@@ -30,6 +39,9 @@
       ul {
         @include reset-list;
         color: $color-green-1;
+        &.gray {
+          color: $color-gray-3;
+        }
 
         li {
           font-family: "Open Sans";
@@ -175,9 +187,12 @@
 
 @media (max-width: $mobile-breakpoint) {
   .best-product {
-    flex-direction: column;
-    position: relative;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &.show-on-mobile {
+      flex-direction: row;
+    }
     padding: 0 !important;
     margin-top: 20px !important;
     margin-bottom: 0 !important;
@@ -193,17 +208,23 @@
       padding-left: 0 !important;
     }
 
-    @include arrows();
-
     .arrow-left {
-      position: absolute;
+      @include arrow();
       border-top-left-radius: 25%;
       border-bottom-left-radius: 25%;
-      top: calc(50%);
-      right: 80px;
-
-      &.right {
-        left: 75px;
+      i {
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+    .arrow-right {
+      @include arrow();
+      border-top-right-radius: 25% !important;
+      border-bottom-right-radius: 25% !important;
+      i {
+        z-index: 1;
+        color: #fff;
+        font-size: 24px;
       }
     }
   }

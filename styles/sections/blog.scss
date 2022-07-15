@@ -6,6 +6,7 @@
 .blog {
   padding: 65px 45px;
   display: block !important;
+  background-color: #fff;
   .routes {
     margin-bottom: 39px;
     display: flex;
@@ -21,7 +22,7 @@
     }
 
     .go-to {
-       cursor:pointer;
+      cursor: pointer;
       span {
         font-family: "Poppins";
         font-style: normal;
@@ -37,19 +38,22 @@
   }
 
   .content {
-   display: flex;
-   justify-content: space-between;
-    .dinner-tips {
-      
-      height: 400px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    &.blog-container {
+      gap: 32px;
+      margin-bottom: 48px;
+    }
+    .dinner-tips {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
       .tag {
         width: 82px;
-        
+
         @include greenTag();
-       
       }
 
       .dinner-content {
@@ -84,82 +88,76 @@
           span {
             @include author-span();
             margin-right: 16px;
-            color:#fff;
+            color: #fff;
           }
         }
       }
     }
 
-    .vegetables{
-        margin-left: 31px;
-        
-       img{
-        
+    .vegetables {
+      margin-left: 31px;
+
+      img {
         height: 180px;
-       }
-       .tag{
+      }
+      .tag {
         @include greenTag();
         margin-bottom: 8px;
         margin-top: 24px;
         padding: 0px 8px;
-width: 80px;
-       }
-       .title{
-        font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-color: $color-black-1;
-       }
-       .author{
+        width: 80px;
+      }
+      .title {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: $color-black-1;
+      }
+      .author {
         display: flex;
-        span{
-            margin-right: 16px;
-            @include author-span();
-         
+        span {
+          margin-right: 16px;
+          @include author-span();
         }
-       }
+      }
     }
 
     .prepares {
-        
       &-item {
         margin-bottom: 32px;
         display: flex;
-        
-        .text{
-            font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 22px;
-color: $color-black-1
-            
+
+        .text {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 22px;
+          color: $color-black-1;
         }
-        img{
-            width: 96px;
-            height: 96px;
-            margin-left: 48px;
-            border-radius: 12px;
+        img {
+          width: 96px;
+          height: 96px;
+          margin-left: 48px;
+          border-radius: 12px;
         }
-        .author{
-            @include author-span();
-            span{
-                margin-right: 16px;
-            }
+        .author {
+          @include author-span();
+          span {
+            margin-right: 16px;
+          }
         }
       }
-  
     }
   }
 }
-@media (max-width:$mobile-breakpoint) {
-.blog{
-  .content{
-    justify-content: center;
-    margin-top: 50px;
+@media (max-width: $mobile-breakpoint) {
+  .blog {
+    .content {
+      justify-content: center;
+      margin-top: 50px;
+    }
   }
 }
-}
-

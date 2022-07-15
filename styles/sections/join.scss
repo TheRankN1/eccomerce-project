@@ -1,0 +1,58 @@
+@import "../partials/variables";
+@import "../partials/text/text";
+@import "../partials/text/buttons";
+@import "../partials/mixins";
+
+.join {
+  .title {
+    @include majority-poppins-text();
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .description {
+    @include majority-open-sans-text();
+    font-size: 14px;
+    font-weight: 400;
+    color: $color-gray-3;
+  }
+  .subscribe-input {
+    margin-bottom: 32px;
+    margin-right: 32px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    background: $color-gray-2;
+    border: 1px solid $color-gray-6;
+    border-radius: 12px;
+    width: 300px;
+    justify-content: space-between;
+    height: 42px;
+    input {
+      border: none;
+      background-color: $color-gray-2;
+      &::placeholder {
+        @include majority-open-sans-text();
+        font-size: 14px;
+        color: $color-gray-3;
+        padding-left: 21px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 16px;
+      }
+      &:focus {
+        outline: none !important ;
+        text-align: center;
+        &::placeholder {
+          text-align: left;
+        }
+      }
+    }
+    span {
+      @include majority-poppins-text();
+      font-size: 15px;
+      font-weight: 700;
+      padding-right: 16px;
+    }
+  }
+}

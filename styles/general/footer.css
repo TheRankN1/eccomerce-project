@@ -1,11 +1,12 @@
 footer {
   font-family: "Poppins", sans-serif;
-  margin-right: 45px;
-  margin-left: 45px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-top: 64px;
   display: block !important;
+  background-color: #fff;
 }
 footer .footer-top {
-  padding-top: 64px;
   padding-bottom: 48px;
   display: flex;
   justify-content: space-between;

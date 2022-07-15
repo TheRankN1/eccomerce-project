@@ -64,6 +64,7 @@
 .blog {
   padding: 65px 45px;
   display: block !important;
+  background-color: #fff;
 }
 .blog .routes {
   margin-bottom: 39px;
@@ -94,6 +95,10 @@
 .blog .content {
   display: flex;
   justify-content: space-between;
+}
+.blog .content.blog-container {
+  gap: 32px;
+  margin-bottom: 48px;
 }
 .blog .content .dinner-tips {
   height: 400px;

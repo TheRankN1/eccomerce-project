@@ -1,6 +1,7 @@
 header {
   font-family: "Poppins";
   display: block !important;
+  background: #ffffff;
 }
 header .header-top {
   display: flex;
