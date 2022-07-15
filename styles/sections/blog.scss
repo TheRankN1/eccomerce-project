@@ -10,6 +10,8 @@
   background-color: #fff;
   .routes {
     margin-bottom: 39px;
+    margin-left: 45px;
+    margin-right: 45px;
     display: flex;
     justify-content: space-between;
 
@@ -42,21 +44,22 @@
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    &:first-child {
-      margin-left: 45px;
-    }
     &:last-child {
-      margin-right: 45px;
+      margin: 0 !important;
+      margin-right: 45px !important;
     }
     &.blog-container {
       margin-bottom: 48px;
     }
     .dinner-tips {
+      margin-left: 45px;
       height: 400px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-
+      &.blog-dinner-tips {
+        margin-left: 0;
+      }
       .tag {
         width: 82px;
 

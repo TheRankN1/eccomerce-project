@@ -25,7 +25,7 @@
   height: 36px;
   border: 2px solid #46760a;
   border-radius: 12px;
-  background-color: #f4f8ec;
+  background-color: #6a983c !important;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -36,6 +36,9 @@
   justify-content: center;
   line-height: 22px;
   color: #ffffff;
+}
+.button-green-1.reset {
+  background-color: transparent !important;
 }
 
 .button-border-green-1 {

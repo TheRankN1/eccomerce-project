@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.button-green {
+.button-green-1 {
   width: 90px;
   height: 36px;
   border: 2px solid #46760a;
@@ -36,6 +36,9 @@
   justify-content: center;
   line-height: 22px;
   color: #ffffff;
+}
+.button-green-1.reset {
+  background-color: transparent !important;
 }
 
 .button-border-green-1 {

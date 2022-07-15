@@ -25,7 +25,7 @@
   height: 36px;
   border: 2px solid #46760a;
   border-radius: 12px;
-  background-color: #f4f8ec;
+  background-color: #6a983c !important;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -36,6 +36,9 @@
   justify-content: center;
   line-height: 22px;
   color: #ffffff;
+}
+.button-green-1.reset {
+  background-color: transparent !important;
 }
 
 .button-border-green-1 {
@@ -69,6 +72,8 @@
 }
 .blog .routes {
   margin-bottom: 39px;
+  margin-left: 45px;
+  margin-right: 45px;
   display: flex;
   justify-content: space-between;
 }
@@ -98,20 +103,22 @@
   justify-content: space-between;
   gap: 32px;
 }
-.blog .content:first-child {
-  margin-left: 45px;
-}
 .blog .content:last-child {
-  margin-right: 45px;
+  margin: 0 !important;
+  margin-right: 45px !important;
 }
 .blog .content.blog-container {
   margin-bottom: 48px;
 }
 .blog .content .dinner-tips {
+  margin-left: 45px;
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.blog .content .dinner-tips.blog-dinner-tips {
+  margin-left: 0;
 }
 .blog .content .dinner-tips .tag {
   width: 82px;

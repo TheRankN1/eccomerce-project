@@ -192,7 +192,7 @@
     align-items: center;
     flex-direction: column;
     &.show-on-mobile {
-      flex-direction: row;
+      flex-direction: row !important;
     }
     padding: 0 !important;
     margin-top: 20px !important;
@@ -208,7 +208,9 @@
       margin-left: 0 !important;
       padding-left: 0 !important;
     }
-
+    .left-options {
+      margin: 0 !important;
+    }
     .arrow-left {
       @include arrow();
       border-top-left-radius: 25%;
@@ -228,10 +230,5 @@
         font-size: 24px;
       }
     }
-  }
-}
-@media (max-width: $mobile-breakpoint) {
-  .left-options {
-    margin: 0 !important;
   }
 }

@@ -55,6 +55,11 @@
   .products {
     .best-product {
       margin-bottom: 40px;
+      &-item {
+        &.first {
+          margin: 0 !important;
+        }
+      }
     }
   }
   .routes {

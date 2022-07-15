@@ -37,6 +37,9 @@
   line-height: 22px;
   color: #ffffff;
 }
+.button-green-1.reset {
+  background-color: transparent !important;
+}
 
 .button-border-green-1 {
   width: 163px;
