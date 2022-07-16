@@ -124,7 +124,6 @@ header .header-main .search input::placeholder {
 }
 header .header-main .search input:focus {
   outline: none !important;
-  text-align: center;
 }
 header .header-main .search input:focus::-moz-placeholder {
   text-align: left;
