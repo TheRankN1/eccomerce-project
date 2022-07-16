@@ -36,6 +36,9 @@
   }
   .button-green-1 {
     width: 214px;
+    &.blog-button {
+      width: 133px;
+    }
     span {
       margin-right: 10px;
       @include majority-poppins-text();

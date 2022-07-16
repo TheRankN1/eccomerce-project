@@ -111,6 +111,9 @@
 .more-products .button-green-1 {
   width: 214px;
 }
+.more-products .button-green-1.blog-button {
+  width: 133px;
+}
 .more-products .button-green-1 span {
   margin-right: 10px;
   font-family: "Poppins";
