@@ -57,6 +57,50 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      &.blog-details-item {
+        flex-direction: row;
+        .dinner-content {
+          display: flex;
+          align-items: flex-end;
+
+          .details {
+            display: flex;
+            align-items: center;
+            padding-left: 200px;
+            gap: 32px;
+            padding-right: 170px;
+
+            ul {
+              @include reset-list();
+              @include majority-poppins-text();
+              font-weight: 600;
+              width: 140px;
+              font-size: 12px;
+              margin-bottom: 35px;
+
+              color: #fff;
+              li {
+                margin-bottom: 15px;
+                &:last-child {
+                  margin-bottom: 0;
+                }
+              }
+              &.gray-keys {
+                color: $color-gray-3;
+              }
+            }
+            .title {
+              flex-wrap: wrap;
+              &.blog-title {
+                padding-top: 0;
+                font-size: 32px;
+                margin-bottom: 32px;
+                line-height: 44px;
+              }
+            }
+          }
+        }
+      }
       &.blog-dinner-tips {
         margin-left: 0;
       }

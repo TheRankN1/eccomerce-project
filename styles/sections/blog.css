@@ -117,6 +117,53 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.blog .content .dinner-tips.blog-details-item {
+  flex-direction: row;
+}
+.blog .content .dinner-tips.blog-details-item .dinner-content {
+  display: flex;
+  align-items: flex-end;
+}
+.blog .content .dinner-tips.blog-details-item .dinner-content .details {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  gap: 32px;
+  padding-right: 170px;
+}
+.blog .content .dinner-tips.blog-details-item .dinner-content .details ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  width: 140px;
+  font-size: 12px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+.blog .content .dinner-tips.blog-details-item .dinner-content .details ul li {
+  margin-bottom: 15px;
+}
+.blog .content .dinner-tips.blog-details-item .dinner-content .details ul li:last-child {
+  margin-bottom: 0;
+}
+.blog .content .dinner-tips.blog-details-item .dinner-content .details ul.gray-keys {
+  color: #a9a9a9;
+}
+.blog .content .dinner-tips.blog-details-item .dinner-content .details .title {
+  flex-wrap: wrap;
+}
+.blog .content .dinner-tips.blog-details-item .dinner-content .details .title.blog-title {
+  padding-top: 0;
+  font-size: 32px;
+  margin-bottom: 32px;
+  line-height: 44px;
+}
 .blog .content .dinner-tips.blog-dinner-tips {
   margin-left: 0;
 }
