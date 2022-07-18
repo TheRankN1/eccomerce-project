@@ -239,6 +239,7 @@
   margin-top: 32px;
   margin-bottom: 16px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -774,5 +775,82 @@
   }
   form .choose-country .demo-icon {
     right: calc(50% - 134px) !important;
+  }
+}
+@media (max-width: 768px) {
+  .checkout-container {
+    padding-bottom: 50px;
+  }
+  .checkout-container .billing-info {
+    margin: 0 auto !important;
+  }
+  .checkout-container .billing-info .title {
+    margin-left: 45px;
+  }
+  .checkout-container .billing-info .info {
+    flex-direction: column;
+    align-items: flex-start !important;
+    margin-left: 45px;
+  }
+  .checkout-container .billing-info form {
+    padding: 16px !important;
+  }
+  .checkout-container .billing-info form .basic-input:nth-child(odd) {
+    margin-right: 0 !important;
+  }
+  .checkout-container .billing-info form .basic-input input {
+    width: auto;
+  }
+  .checkout-container .billing-info form .basic-input .choose-country .demo-icon {
+    display: none;
+  }
+  .checkout-container .billing-info form .fed-ex {
+    gap: 20px;
+    height: auto !important;
+    padding: 20px;
+    width: auto !important;
+  }
+  .checkout-container .billing-info form .fed-ex .radio-button {
+    margin-left: 0 !important;
+  }
+  .checkout-container .billing-info form .change-address {
+    width: auto !important;
+  }
+  .checkout-container .billing-info form .verify .check {
+    min-width: 20px;
+  }
+  .checkout-container .billing-info form .payment-method {
+    padding: 12px;
+  }
+  .checkout-container .billing-info form .payment-method .method {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .checkout-container .order-summary {
+    border: none !important;
+    margin: 0 !important;
+  }
+  .checkout-container .order-summary .promo-code {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkout-container .order-summary .promo-code input::-moz-placeholder {
+    padding-left: 20px;
+  }
+  .checkout-container .order-summary .promo-code input:-ms-input-placeholder {
+    padding-left: 20px;
+  }
+  .checkout-container .order-summary .promo-code input::placeholder {
+    padding-left: 20px;
+  }
+  .checkout-container .order-summary .promo-code span {
+    margin-top: 10px;
+  }
+  footer {
+    padding-bottom: 20px !important;
+  }
+  footer .footer-copyright {
+    padding-bottom: 20px !important;
   }
 }/*# sourceMappingURL=checkout-page.css.map */
