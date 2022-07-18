@@ -232,11 +232,14 @@ header {
     .responsive-nav {
       display: flex;
       align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
       .search {
         flex: 1;
       }
       .hamburger {
         margin-left: 20px;
+        margin-top: 5px;
       }
     }
     .menu {

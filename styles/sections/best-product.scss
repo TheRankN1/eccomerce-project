@@ -9,13 +9,19 @@
   &.blog-content {
     display: flex !important;
     .left-options {
-      margin-right: 48px;
       margin-left: 45px;
+    }
+    .blog-products-container {
+      margin-right: 29px;
+      .row {
+        .best-product-item {
+          padding-top: 0;
+        }
+      }
     }
   }
 
   .blog-products {
-    margin-bottom: 57px;
     margin-right: 29px;
     margin-left: 29px;
   }
@@ -188,6 +194,18 @@
 }
 
 @media (max-width: $mobile-breakpoint) {
+  .products {
+    &.blog-content {
+      .blog-products-container {
+        margin-right: 0;
+        .row {
+          .best-product-item {
+            padding-top: 20px;
+          }
+        }
+      }
+    }
+  }
   .best-product {
     justify-content: center;
     align-items: center;

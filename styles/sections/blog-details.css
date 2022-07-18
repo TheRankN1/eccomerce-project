@@ -441,4 +441,38 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
+}
+
+@media (max-width: 768px) {
+  .blog-details-content .tags .title,
+.blog-details-content .tags .tag-row,
+.blog-details-content .tags .back-to-blog {
+    padding: 0 !important;
+    text-align: center;
+  }
+  .blog-details-content .tags .tag-row {
+    justify-content: center;
+  }
+  .blog-details-content .eveniments {
+    padding: 16px;
+    font-size: 14px;
+  }
+  .blog-details-content .eveniments .comments .admin-comment.user {
+    margin-left: 10% !important;
+  }
+  .blog-details-content .eveniments .comments .feedback .comment-button {
+    width: auto !important;
+  }
+  .blog-details-content .social-media {
+    flex-wrap: wrap;
+  }
+  .blog-details-content form .name-address {
+    flex-direction: column;
+  }
+  .blog-details-content form .name-address .basic-input input {
+    width: auto !important;
+  }
+  .blog-details-content form .verify .check {
+    min-width: 20px;
+  }
 }/*# sourceMappingURL=blog-details.css.map */

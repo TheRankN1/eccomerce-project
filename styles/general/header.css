@@ -254,12 +254,15 @@ header .hamburger .bar {
   header .responsive-nav {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   header .responsive-nav .search {
     flex: 1;
   }
   header .responsive-nav .hamburger {
     margin-left: 20px;
+    margin-top: 5px;
   }
   header .menu.active {
     display: block;

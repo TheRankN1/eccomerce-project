@@ -231,3 +231,52 @@
     }
   }
 }
+@media (max-width: $mobile-breakpoint) {
+  .blog-details-content {
+    .tags {
+      .title,
+      .tag-row,
+      .back-to-blog {
+        padding: 0 !important;
+        text-align: center;
+      }
+      .tag-row {
+        justify-content: center;
+      }
+    }
+    .eveniments {
+      padding: 16px;
+      font-size: 14px;
+      .comments {
+        .admin-comment {
+          &.user {
+            margin-left: 10% !important;
+          }
+        }
+        .feedback {
+          .comment-button {
+            width: auto !important;
+          }
+        }
+      }
+    }
+    .social-media {
+      flex-wrap: wrap;
+    }
+    form {
+      .name-address {
+        flex-direction: column;
+        .basic-input {
+          input {
+            width: auto !important;
+          }
+        }
+      }
+      .verify {
+        .check {
+          min-width: 20px;
+        }
+      }
+    }
+  }
+}

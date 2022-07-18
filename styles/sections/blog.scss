@@ -8,6 +8,9 @@
   display: block !important;
   padding-inline: 0;
   background-color: #fff;
+  @media (max-width: $tablet-breakpoint) {
+    display: none !important;
+  }
   .routes {
     margin-bottom: 39px;
     margin-left: 45px;
@@ -45,8 +48,8 @@
     justify-content: space-between;
     gap: 32px;
     &:last-child {
-      margin: 0 !important;
-      margin-right: 45px !important;
+      margin: 0;
+      margin-right: 45px;
     }
     &.blog-container {
       margin-bottom: 48px;
@@ -211,8 +214,7 @@
       justify-content: center;
       margin-top: 50px;
       &:first-child {
-        margin-left: 0;
-        margin-right: 0;
+        margin: 20px;
       }
     }
   }
