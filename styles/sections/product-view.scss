@@ -100,6 +100,11 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      padding: 21px 26px;
+      padding-left: 16px;
+      margin-bottom: 18px;
+      border: 1px solid $color-gray-4;
+      border-radius: 12px;
       .price {
         @include majority-poppins-text;
         color: $color-green-1;
@@ -119,8 +124,8 @@
           align-items: center;
           padding: 6px;
           margin-right: 25px;
-          background: #f9f9f9;
-          border: 1px solid #d1d1d1;
+          background: $color-gray-2;
+          border: 1px solid $color-gray-6;
           border-radius: 12px;
           gap: 16px;
           .number {

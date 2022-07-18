@@ -75,9 +75,10 @@
   margin-right: 48px;
   margin-left: 45px;
 }
-.products .row {
+.products .blog-products {
   margin-bottom: 57px;
-  margin-right: 45px;
+  margin-right: 29px;
+  margin-left: 29px;
 }
 .products .best-product {
   padding: 63px 45px 73px 45px;

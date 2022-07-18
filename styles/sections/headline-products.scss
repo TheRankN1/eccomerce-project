@@ -53,16 +53,27 @@
 
 @media (max-width: $mobile-breakpoint) {
   .products {
-    .best-product {
-      margin-bottom: 40px;
-      &-item {
-        &.first {
-          margin: 0 !important;
+    &.headline {
+      .best-product {
+        margin-bottom: 40px;
+        &:last-child {
+          margin-right: 0;
+        }
+        &-item {
+          &.first {
+            margin: 0 !important;
+          }
         }
       }
     }
-  }
-  .routes {
-    justify-content: center;
+    .routes {
+      justify-content: center;
+      span {
+        margin: 0 !important;
+      }
+      .go-to {
+        margin: 0 !important;
+      }
+    }
   }
 }

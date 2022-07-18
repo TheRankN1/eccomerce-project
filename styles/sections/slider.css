@@ -72,6 +72,19 @@
   position: relative;
   margin: 0 auto;
 }
+.slider.blog-details-slider {
+  padding: 0;
+  background-color: #fff;
+  max-width: 1260px !important;
+}
+.slider.blog-details-slider .routes {
+  padding-top: 64px;
+  margin-bottom: 0;
+  padding-bottom: 32px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #fff;
+}
 .slider .routes {
   margin-bottom: 39px;
   padding-left: 75px;
@@ -185,6 +198,7 @@
   }
   .slider .routes {
     justify-content: space-between;
+    padding: 0 !important;
   }
   .slider .content {
     flex-direction: row !important;

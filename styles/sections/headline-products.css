@@ -107,13 +107,22 @@
 }
 
 @media (max-width: 768px) {
-  .products .best-product {
+  .products.headline .best-product {
     margin-bottom: 40px;
   }
-  .products .best-product-item.first {
+  .products.headline .best-product:last-child {
+    margin-right: 0;
+  }
+  .products.headline .best-product-item.first {
     margin: 0 !important;
   }
-  .routes {
+  .products .routes {
     justify-content: center;
+  }
+  .products .routes span {
+    margin: 0 !important;
+  }
+  .products .routes .go-to {
+    margin: 0 !important;
   }
 }/*# sourceMappingURL=headline-products.css.map */
