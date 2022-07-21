@@ -80,6 +80,7 @@
   line-height: 18px;
   font-size: 22px;
   font-weight: 600;
+  line-height: 24px;
   margin-bottom: 4px;
 }
 .checkout-container .billing-info .info {
@@ -93,6 +94,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.checkout-container .billing-info form .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-size: 22px !important;
+  font-weight: 600;
+  margin-bottom: 4px;
 }
 .checkout-container .billing-info form .name {
   display: flex;

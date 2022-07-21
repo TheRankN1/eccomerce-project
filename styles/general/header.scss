@@ -267,3 +267,10 @@ header {
     }
   }
 }
+@media (max-width: 253px) {
+  header {
+    .header-main {
+      padding: 0;
+    }
+  }
+}

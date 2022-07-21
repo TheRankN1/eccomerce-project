@@ -279,4 +279,10 @@ header .hamburger .bar {
   header .hambuger .active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+}
+
+@media (max-width: 253px) {
+  header .header-main {
+    padding: 0;
+  }
 }/*# sourceMappingURL=header.css.map */
