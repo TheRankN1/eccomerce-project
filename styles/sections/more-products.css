@@ -115,7 +115,6 @@
   width: 133px;
 }
 .more-products .button-green-1 span {
-  margin-right: 10px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -123,9 +122,6 @@
   line-height: 18px;
   font-size: 15px;
   color: #fff;
-}
-.more-products .button-green-1 .demo-icon {
-  font-size: 6px;
 }
 .more-products .noProducts {
   display: flex;

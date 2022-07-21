@@ -40,13 +40,9 @@
       width: 133px;
     }
     span {
-      margin-right: 10px;
       @include majority-poppins-text();
       font-size: 15px;
       color: #fff;
-    }
-    .demo-icon {
-      font-size: 6px;
     }
   }
   .noProducts {
