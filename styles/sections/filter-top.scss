@@ -178,35 +178,35 @@
           margin: 0;
           padding: 0;
 
-          & + .checkbox {
+          & + .radio {
             width: 20px;
             height: 20px;
             border-radius: 50%;
             border: 2px solid $color-gray-6;
             margin-right: 10px;
-          }
-
-          & + .checkboxBoldBorder {
-            width: 20px;
-            height: 20px;
-            position: relative;
-            border-radius: 50%;
-            margin-right: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: $color-black-1;
-
-            &::before {
-              position: absolute;
-              width: 10px;
-              height: 10px;
-              content: "";
+            cursor:pointer;
+            &.checkboxBoldBorder {
+              width: 20px;
+              height: 20px;
+              position: relative;
               border-radius: 50%;
-              background-color: #fff;
+              margin-right: 10px;
+              cursor:pointer;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: $color-black-1;
+
+              &::before {
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                content: "";
+                border-radius: 50%;
+                background-color: #fff;
+              }
             }
           }
-
           & + .checkboxSquare {
             width: 20px;
             height: 20px;

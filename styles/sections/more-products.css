@@ -2,8 +2,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  margin-bottom: 16px;
-}
+  margin-bottom: 16px; }
 
 .button-gray-1 {
   width: 167px;
@@ -17,8 +16,7 @@
   line-height: 22px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .button-green-1 {
   width: 90px;
@@ -35,11 +33,9 @@
   align-items: center;
   justify-content: center;
   line-height: 22px;
-  color: #ffffff;
-}
-.button-green-1.reset {
-  background-color: transparent !important;
-}
+  color: #ffffff; }
+  .button-green-1.reset {
+    background-color: transparent !important; }
 
 .button-border-green-1 {
   width: 163px;
@@ -48,21 +44,18 @@
   padding: 12px 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.button-border-green-1 span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  cursor: pointer;
-  line-height: 22px;
-  color: #151515;
-}
-.button-border-green-1 i {
-  font-size: 16px;
-  color: #6a983c;
-}
+  justify-content: center; }
+  .button-border-green-1 span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 22px;
+    color: #151515; }
+  .button-border-green-1 i {
+    font-size: 16px;
+    color: #6a983c; }
 
 .more-products {
   display: flex;
@@ -70,96 +63,86 @@
   align-items: center;
   background-color: #fff;
   padding-top: 32px;
-  padding-bottom: 32px;
-}
-.more-products .pages {
-  display: flex;
-}
-.more-products .pages span {
-  margin-left: 45px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 19px;
-  color: #151515;
-  color: #a9a9a9;
-}
-.more-products .pages ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  margin-left: 8px;
-}
-.more-products .pages ul li {
-  cursor: pointer;
-  margin-right: 8px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 19px;
-  color: #151515;
-}
-.more-products .pages ul li:last-child {
-  margin-right: 0;
-}
-.more-products .pages ul li.active {
-  color: #6a983c;
-}
-.more-products .button-green-1 {
-  width: 214px;
-}
-.more-products .button-green-1.blog-button {
-  width: 133px;
-}
-.more-products .button-green-1 span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  font-size: 15px;
-  color: #fff;
-}
-.more-products .noProducts {
-  display: flex;
-  align-items: center;
-  margin-right: 45px;
-}
-.more-products .noProducts .no {
-  background: #f4f8ec;
-  border-radius: 12px;
-  padding: 0px 8px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 12px;
-  line-height: 18px;
-  color: #6a983c;
-  margin-right: 4px;
-}
-.more-products .noProducts span {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 19px;
-  color: #151515;
-  color: #a9a9a9;
-}
+  padding-bottom: 32px; }
+  .more-products .pages {
+    display: flex; }
+    .more-products .pages span {
+      margin-left: 45px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 19px;
+      color: #151515;
+      color: #a9a9a9; }
+    .more-products .pages ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      margin-left: 8px; }
+      .more-products .pages ul li {
+        cursor: pointer;
+        margin-right: 8px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        color: #151515; }
+        .more-products .pages ul li:last-child {
+          margin-right: 0; }
+        .more-products .pages ul li.active {
+          color: #6a983c; }
+  .more-products .button-green-1 {
+    width: 214px;
+    display: flex;
+    align-items: center; }
+    .more-products .button-green-1.blog-button {
+      width: 133px; }
+    .more-products .button-green-1 span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      font-size: 15px;
+      color: #fff; }
+    .more-products .button-green-1 .demo-icon {
+      font-size: 7px;
+      margin-left: 10px; }
+  .more-products .noProducts {
+    display: flex;
+    align-items: center;
+    margin-right: 45px; }
+    .more-products .noProducts .no {
+      background: #f4f8ec;
+      border-radius: 12px;
+      padding: 0px 8px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 12px;
+      line-height: 18px;
+      color: #6a983c;
+      margin-right: 4px; }
+    .more-products .noProducts span {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 19px;
+      color: #151515;
+      color: #a9a9a9; }
 
 @media (max-width: 768px) {
   .more-products {
     justify-content: center;
-    flex-direction: column;
-  }
-  .more-products .pages {
-    margin-bottom: 30px;
-  }
-  .more-products .pages span {
-    margin-left: 0;
-  }
-}/*# sourceMappingURL=more-products.css.map */
+    flex-direction: column; }
+    .more-products .pages {
+      margin-bottom: 30px; }
+      .more-products .pages span {
+        margin-left: 0; } }
+
+/*# sourceMappingURL=more-products.css.map */

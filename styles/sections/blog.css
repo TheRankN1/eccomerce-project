@@ -2,8 +2,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  margin-bottom: 16px;
-}
+  margin-bottom: 16px; }
 
 .button-gray-1 {
   width: 167px;
@@ -17,8 +16,7 @@
   line-height: 22px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .button-green-1 {
   width: 90px;
@@ -35,11 +33,9 @@
   align-items: center;
   justify-content: center;
   line-height: 22px;
-  color: #ffffff;
-}
-.button-green-1.reset {
-  background-color: transparent !important;
-}
+  color: #ffffff; }
+  .button-green-1.reset {
+    background-color: transparent !important; }
 
 .button-border-green-1 {
   width: 163px;
@@ -48,250 +44,209 @@
   padding: 12px 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.button-border-green-1 span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  cursor: pointer;
-  line-height: 22px;
-  color: #151515;
-}
-.button-border-green-1 i {
-  font-size: 16px;
-  color: #6a983c;
-}
+  justify-content: center; }
+  .button-border-green-1 span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 22px;
+    color: #151515; }
+  .button-border-green-1 i {
+    font-size: 16px;
+    color: #6a983c; }
 
 .blog {
   padding: 65px 45px;
   display: block !important;
   padding-inline: 0;
-  background-color: #fff;
-}
-@media (max-width: 1000px) {
-  .blog {
-    display: none !important;
-  }
-}
-.blog .routes {
-  margin-bottom: 39px;
-  margin-left: 45px;
-  margin-right: 45px;
-  display: flex;
-  justify-content: space-between;
-}
-.blog .routes span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  color: #151515;
-}
-.blog .routes .go-to {
-  cursor: pointer;
-}
-.blog .routes .go-to span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 22px;
-}
-.blog .routes .go-to i {
-  color: #6a983c;
-}
-.blog .content {
-  display: flex;
-  justify-content: space-between;
-  gap: 32px;
-}
-.blog .content:last-child {
-  margin: 0;
-  margin-right: 45px;
-}
-.blog .content.blog-container {
-  margin-bottom: 48px;
-}
-.blog .content .dinner-tips {
-  margin-left: 45px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.blog .content .dinner-tips.blog-details-item {
-  flex-direction: row;
-}
-.blog .content .dinner-tips.blog-details-item .dinner-content {
-  display: flex;
-  align-items: flex-end;
-}
-.blog .content .dinner-tips.blog-details-item .dinner-content .details {
-  display: flex;
-  align-items: center;
-  padding-left: 200px;
-  gap: 32px;
-  padding-right: 170px;
-}
-.blog .content .dinner-tips.blog-details-item .dinner-content .details ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 600;
-  width: 140px;
-  font-size: 12px;
-  margin-bottom: 35px;
-  color: #fff;
-}
-.blog .content .dinner-tips.blog-details-item .dinner-content .details ul li {
-  margin-bottom: 15px;
-}
-.blog .content .dinner-tips.blog-details-item .dinner-content .details ul li:last-child {
-  margin-bottom: 0;
-}
-.blog .content .dinner-tips.blog-details-item .dinner-content .details ul.gray-keys {
-  color: #a9a9a9;
-}
-.blog .content .dinner-tips.blog-details-item .dinner-content .details .title {
-  flex-wrap: wrap;
-}
-.blog .content .dinner-tips.blog-details-item .dinner-content .details .title.blog-title {
-  padding-top: 0;
-  font-size: 32px;
-  margin-bottom: 32px;
-  line-height: 44px;
-}
-.blog .content .dinner-tips.blog-dinner-tips {
-  margin-left: 0;
-}
-.blog .content .dinner-tips .tag {
-  width: 82px;
-  background: #f4f8ec;
-  border-radius: 12px;
-  padding: 0px 8px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 12px;
-  line-height: 18px;
-  color: #6a983c;
-}
-.blog .content .dinner-tips .dinner-content {
-  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-}
-.blog .content .dinner-tips .dinner-content .title {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 33px;
-  margin-bottom: 8px;
-  padding-left: 24px;
-  padding-top: 76px;
-  color: #ffffff;
-}
-.blog .content .dinner-tips .dinner-content .author {
-  display: flex;
-  align-items: center;
-  padding-left: 24px;
-  padding-bottom: 24px;
-}
-.blog .content .dinner-tips .dinner-content .author img {
-  width: 32px;
-  height: 32px;
-  border-radius: 12px;
-  margin-right: 8px;
-}
-.blog .content .dinner-tips .dinner-content .author span {
-  font-family: "Open Sans";
-  font-size: 12px;
-  color: #151515;
-  line-height: 16px;
-  margin-right: 16px;
-  color: #fff;
-}
-.blog .content .vegetables img {
-  height: 180px;
-}
-.blog .content .vegetables .tag {
-  background: #f4f8ec;
-  border-radius: 12px;
-  padding: 0px 8px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 12px;
-  line-height: 18px;
-  color: #6a983c;
-  margin-bottom: 8px;
-  margin-top: 24px;
-  padding: 0px 8px;
-  width: 80px;
-}
-.blog .content .vegetables .title {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  color: #151515;
-}
-.blog .content .vegetables .author {
-  display: flex;
-}
-.blog .content .vegetables .author span {
-  margin-right: 16px;
-  font-family: "Open Sans";
-  font-size: 12px;
-  color: #151515;
-  line-height: 16px;
-}
-.blog .content .prepares-item {
-  margin-bottom: 32px;
-  display: flex;
-}
-.blog .content .prepares-item .text {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 22px;
-  color: #151515;
-}
-.blog .content .prepares-item img {
-  width: 96px;
-  height: 96px;
-  margin-left: 48px;
-  border-radius: 12px;
-}
-.blog .content .prepares-item .author {
-  font-family: "Open Sans";
-  font-size: 12px;
-  color: #151515;
-  line-height: 16px;
-}
-.blog .content .prepares-item .author span {
-  margin-right: 16px;
-}
+  background-color: #fff; }
+  @media (max-width: 1000px) {
+    .blog {
+      display: none !important; } }
+  .blog .routes {
+    margin-bottom: 39px;
+    margin-left: 45px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: space-between; }
+    .blog .routes span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #151515; }
+    .blog .routes .go-to {
+      cursor: pointer; }
+      .blog .routes .go-to span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px; }
+      .blog .routes .go-to i {
+        color: #6a983c; }
+  .blog .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px; }
+    .blog .content:last-child {
+      margin: 0;
+      margin-right: 45px; }
+    .blog .content.blog-container {
+      margin-bottom: 48px; }
+    .blog .content .dinner-tips {
+      margin-left: 45px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .blog .content .dinner-tips.blog-details-item {
+        flex-direction: row; }
+        .blog .content .dinner-tips.blog-details-item .dinner-content {
+          display: flex;
+          align-items: flex-end; }
+          .blog .content .dinner-tips.blog-details-item .dinner-content .details {
+            display: flex;
+            align-items: center;
+            padding-left: 200px;
+            gap: 32px;
+            padding-right: 170px; }
+            .blog .content .dinner-tips.blog-details-item .dinner-content .details ul {
+              margin: 0;
+              padding: 0;
+              list-style: none;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              font-weight: 600;
+              width: 140px;
+              font-size: 12px;
+              margin-bottom: 35px;
+              color: #fff; }
+              .blog .content .dinner-tips.blog-details-item .dinner-content .details ul li {
+                margin-bottom: 15px; }
+                .blog .content .dinner-tips.blog-details-item .dinner-content .details ul li:last-child {
+                  margin-bottom: 0; }
+              .blog .content .dinner-tips.blog-details-item .dinner-content .details ul.gray-keys {
+                color: #a9a9a9; }
+            .blog .content .dinner-tips.blog-details-item .dinner-content .details .title {
+              flex-wrap: wrap; }
+              .blog .content .dinner-tips.blog-details-item .dinner-content .details .title.blog-title {
+                padding-top: 0;
+                font-size: 32px;
+                margin-bottom: 32px;
+                line-height: 44px; }
+      .blog .content .dinner-tips.blog-dinner-tips {
+        margin-left: 0; }
+      .blog .content .dinner-tips .tag {
+        width: 82px;
+        background: #f4f8ec;
+        border-radius: 12px;
+        padding: 0px 8px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6a983c; }
+      .blog .content .dinner-tips .dinner-content {
+        background-image: url("../../images/carrots-1.jpg");
+        background-size: cover;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px; }
+        .blog .content .dinner-tips .dinner-content .title {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 33px;
+          margin-bottom: 8px;
+          padding-left: 24px;
+          padding-top: 76px;
+          color: #151515; }
+        .blog .content .dinner-tips .dinner-content .author {
+          display: flex;
+          align-items: center;
+          padding-left: 24px;
+          padding-bottom: 24px; }
+          .blog .content .dinner-tips .dinner-content .author img {
+            width: 32px;
+            height: 32px;
+            border-radius: 12px;
+            margin-right: 8px; }
+          .blog .content .dinner-tips .dinner-content .author span {
+            font-family: "Open Sans";
+            font-size: 12px;
+            color: #151515;
+            line-height: 16px;
+            margin-right: 16px;
+            color: #151515; }
+    .blog .content .vegetables img {
+      height: 180px; }
+    .blog .content .vegetables .tag {
+      background: #f4f8ec;
+      border-radius: 12px;
+      padding: 0px 8px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 12px;
+      line-height: 18px;
+      color: #6a983c;
+      margin-bottom: 8px;
+      margin-top: 24px;
+      padding: 0px 8px;
+      width: 80px; }
+    .blog .content .vegetables .title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #151515; }
+    .blog .content .vegetables .author {
+      display: flex; }
+      .blog .content .vegetables .author span {
+        margin-right: 16px;
+        font-family: "Open Sans";
+        font-size: 12px;
+        color: #151515;
+        line-height: 16px; }
+    .blog .content .prepares-item {
+      margin-bottom: 32px;
+      display: flex; }
+      .blog .content .prepares-item .text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515; }
+      .blog .content .prepares-item img {
+        width: 96px;
+        height: 96px;
+        margin-left: 48px;
+        border-radius: 12px; }
+      .blog .content .prepares-item .author {
+        font-family: "Open Sans";
+        font-size: 12px;
+        color: #151515;
+        line-height: 16px; }
+        .blog .content .prepares-item .author span {
+          margin-right: 16px; }
 
 @media (max-width: 768px) {
   .blog .content {
     justify-content: center;
-    margin-top: 50px;
-  }
-  .blog .content:first-child {
-    margin: 20px;
-  }
-}/*# sourceMappingURL=blog.css.map */
+    margin-top: 50px; }
+    .blog .content:first-child {
+      margin: 20px; } }
+
+/*# sourceMappingURL=blog.css.map */

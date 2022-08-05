@@ -10,10 +10,10 @@
   .banner {
     background: #f4f8ec;
     border-radius: 12px;
-    height: 280px;
     padding: 32px;
     margin-right: 31px;
     display: flex;
+    gap:94px;
     flex-direction: column;
     &:last-child{
         margin-right: 43px;
@@ -53,18 +53,17 @@ color:$color-black-1;
       margin: 0 !important;
       
     }
-    @include arrows();
-    .arrow-left{
-      position: absolute;
-      border-top-left-radius: 25%;
-      border-bottom-left-radius: 25%;
-      top: calc(60%);
-      right:90px;
-      &.right{
-        left:85px;
-     
-      }
-    }
+    //.arrow-left{
+    //  position: absolute;
+    //  border-top-left-radius: 25%;
+    //  border-bottom-left-radius: 25%;
+    //  top: calc(60%);
+    //  right:90px;
+    //  &.right{
+    //    left:85px;
+    //
+    //  }
+    //}
     
   }
   

@@ -10,8 +10,7 @@
   line-height: 22px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .button-green-1 {
   width: 90px;
@@ -28,11 +27,9 @@
   align-items: center;
   justify-content: center;
   line-height: 22px;
-  color: #ffffff;
-}
-.button-green-1.reset {
-  background-color: transparent !important;
-}
+  color: #ffffff; }
+  .button-green-1.reset {
+    background-color: transparent !important; }
 
 .button-border-green-1 {
   width: 163px;
@@ -41,18 +38,17 @@
   padding: 12px 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.button-border-green-1 span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  cursor: pointer;
-  line-height: 22px;
-  color: #151515;
-}
-.button-border-green-1 i {
-  font-size: 16px;
-  color: #6a983c;
-}/*# sourceMappingURL=buttons.css.map */
+  justify-content: center; }
+  .button-border-green-1 span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 22px;
+    color: #151515; }
+  .button-border-green-1 i {
+    font-size: 16px;
+    color: #6a983c; }
+
+/*# sourceMappingURL=buttons.css.map */

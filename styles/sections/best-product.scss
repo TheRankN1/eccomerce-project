@@ -6,6 +6,10 @@
 .products {
   background: #ffffff;
   display: block !important;
+  margin-right: 45px;
+  .row{
+    margin-bottom: 48px;
+  }
   &.blog-content {
     display: flex !important;
     .left-options {

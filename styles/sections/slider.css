@@ -2,8 +2,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  margin-bottom: 16px;
-}
+  margin-bottom: 16px; }
 
 .button-gray-1 {
   width: 167px;
@@ -17,8 +16,7 @@
   line-height: 22px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .button-green-1 {
   width: 90px;
@@ -35,11 +33,9 @@
   align-items: center;
   justify-content: center;
   line-height: 22px;
-  color: #ffffff;
-}
-.button-green-1.reset {
-  background-color: transparent !important;
-}
+  color: #ffffff; }
+  .button-green-1.reset {
+    background-color: transparent !important; }
 
 .button-border-green-1 {
   width: 163px;
@@ -48,21 +44,18 @@
   padding: 12px 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.button-border-green-1 span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  cursor: pointer;
-  line-height: 22px;
-  color: #151515;
-}
-.button-border-green-1 i {
-  font-size: 16px;
-  color: #6a983c;
-}
+  justify-content: center; }
+  .button-border-green-1 span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 22px;
+    color: #151515; }
+  .button-border-green-1 i {
+    font-size: 16px;
+    color: #6a983c; }
 
 .slider {
   background: #f9f9f9;
@@ -70,151 +63,129 @@
   padding-bottom: 90px;
   max-width: 1350px;
   position: relative;
-  margin: 0 auto;
-}
-.slider.blog-details-slider {
-  padding: 0;
-  background-color: #fff;
-  max-width: 1260px !important;
-}
-.slider.blog-details-slider .routes {
-  padding-top: 64px;
-  margin-bottom: 0;
-  padding-bottom: 32px;
-  padding-left: 45px;
-  padding-right: 45px;
-  background-color: #fff;
-}
-.slider .routes {
-  margin-bottom: 39px;
-  padding-left: 75px;
-  padding-right: 75px;
-  display: flex;
-  justify-content: space-between;
-}
-.slider .routes span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  color: #151515;
-}
-.slider .routes .go-to {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  padding: 6px 12px;
-  border-radius: 12px;
-  background-color: #fff;
-}
-.slider .routes .go-to span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 22px;
-  cursor: pointer;
-}
-.slider .routes .go-to i {
-  color: #6a983c;
-}
-.slider .slider-content {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-.slider .slider-content .arrow-left {
-  width: 32px;
-  left: 0;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
-  height: 48px;
-  background-color: #151515;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  justify-content: center;
-  padding: 0;
-  border-top-left-radius: 25%;
-  border-bottom-left-radius: 25%;
-}
-.slider .slider-content .arrow-left i {
-  color: #fff;
-  font-size: 24px;
-}
-.slider .slider-content-item {
-  padding: 24px 32px;
-  display: flex;
-  flex-direction: column;
-  background: #ffffff;
-  border: 1px solid #f1f1f1;
-  border-radius: 12px;
-}
-.slider .slider-content-item span {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 22px;
-  text-align: center;
-  color: #151515;
-  margin-bottom: 24px;
-}
-.slider .slider-content-item span.name {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  color: #e4e4e4;
-}
-.slider .slider-content .arrow-right {
-  width: 32px;
-  left: 0;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
-  height: 48px;
-  background-color: #151515;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  justify-content: center;
-  padding: 0;
-  border-top-right-radius: 25%;
-  border-bottom-right-radius: 25%;
-}
-.slider .slider-content .arrow-right i {
-  z-index: 1;
-  color: #fff;
-  font-size: 24px;
-}
+  margin: 0 auto; }
+  .slider.blog-details-slider {
+    padding: 0;
+    background-color: #fff;
+    max-width: 1260px !important; }
+    .slider.blog-details-slider .routes {
+      padding-top: 64px;
+      margin-bottom: 0;
+      padding-bottom: 32px;
+      padding-left: 45px;
+      padding-right: 45px;
+      background-color: #fff; }
+  .slider .routes {
+    margin-bottom: 39px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    justify-content: space-between; }
+    .slider .routes span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #151515; }
+    .slider .routes .go-to {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      padding: 6px 12px;
+      border-radius: 12px;
+      background-color: #fff; }
+      .slider .routes .go-to span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        cursor: pointer; }
+      .slider .routes .go-to i {
+        color: #6a983c; }
+  .slider .slider-content {
+    display: flex;
+    align-items: center;
+    gap: 32px; }
+    .slider .slider-content .arrow-left {
+      width: 32px;
+      left: 0;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+      height: 48px;
+      background-color: #151515;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      justify-content: center;
+      padding: 0;
+      border-top-left-radius: 25%;
+      border-bottom-left-radius: 25%; }
+      .slider .slider-content .arrow-left i {
+        color: #fff;
+        font-size: 24px; }
+    .slider .slider-content-item {
+      padding: 24px 32px;
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+      border: 1px solid #f1f1f1;
+      border-radius: 12px; }
+      .slider .slider-content-item span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #151515;
+        margin-bottom: 24px; }
+        .slider .slider-content-item span.name {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 18px;
+          color: #e4e4e4; }
+    .slider .slider-content .arrow-right {
+      width: 32px;
+      left: 0;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+      height: 48px;
+      background-color: #151515;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      justify-content: center;
+      padding: 0;
+      border-top-right-radius: 25%;
+      border-bottom-right-radius: 25%; }
+      .slider .slider-content .arrow-right i {
+        z-index: 1;
+        color: #fff;
+        font-size: 24px; }
 
 @media (max-width: 768px) {
   .slider {
-    padding-inline: 0 !important;
-  }
-  .slider .category-menu {
-    flex-direction: column;
-  }
-  .slider .routes {
-    justify-content: space-between;
-    padding: 0 !important;
-    padding-left: 16px !important;
-  }
-  .slider .content {
-    flex-direction: row !important;
-    padding: 0 !important;
-  }
-  .slider .content .arrow-left {
-    margin-left: auto !important;
-    margin-right: 0 !important;
-  }
-  .slider .content .arrow-right {
-    margin: 0 !important;
-    margin-left: 0 !important;
-    margin-right: auto !important;
-  }
-  .slider .content-item {
-    margin: 0 !important;
-  }
-}/*# sourceMappingURL=slider.css.map */
+    padding-inline: 0 !important; }
+    .slider .category-menu {
+      flex-direction: column; }
+    .slider .routes {
+      justify-content: space-between;
+      padding: 0 !important;
+      padding-left: 16px !important; }
+    .slider .content {
+      flex-direction: row !important;
+      padding: 0 !important; }
+      .slider .content .arrow-left {
+        margin-left: auto !important;
+        margin-right: 0 !important; }
+      .slider .content .arrow-right {
+        margin: 0 !important;
+        margin-left: 0 !important;
+        margin-right: auto !important; }
+      .slider .content-item {
+        margin: 0 !important; } }
+
+/*# sourceMappingURL=slider.css.map */

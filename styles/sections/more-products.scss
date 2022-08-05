@@ -36,6 +36,8 @@
   }
   .button-green-1 {
     width: 214px;
+    display: flex;
+    align-items: center;
     &.blog-button {
       width: 133px;
     }
@@ -43,6 +45,10 @@
       @include majority-poppins-text();
       font-size: 15px;
       color: #fff;
+    }
+    .demo-icon{
+      font-size:7px;
+      margin-left: 10px;
     }
   }
   .noProducts {
