@@ -163,12 +163,13 @@
           color: #151515;
           font-size: 14px;
           color: #a9a9a9;
-          padding-left: 21px;
           padding-top: 12px;
           padding-bottom: 12px;
+          text-indent: 21px;
           padding-right: 16px; }
         .checkout-container .billing-info form .basic-input input:focus {
-          outline: none !important; }
+          outline: none !important;
+          text-indent: 21px; }
           .checkout-container .billing-info form .basic-input input:focus::placeholder {
             text-align: left; }
       .checkout-container .billing-info form .basic-input span {

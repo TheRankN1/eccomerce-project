@@ -103,13 +103,14 @@
             @include majority-open-sans-text();
             font-size: 14px;
             color: $color-gray-3;
-            padding-left: 21px;
             padding-top: 12px;
             padding-bottom: 12px;
+            text-indent: 21px;
             padding-right: 16px;
           }
           &:focus {
             outline: none !important ;
+            text-indent: 21px;
             &::placeholder {
               text-align: left;
             }
