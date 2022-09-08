@@ -59,8 +59,7 @@
 
 .products {
   background: #ffffff;
-  display: block !important;
-  margin-right: 45px; }
+  display: block !important; }
   .products .row {
     margin-bottom: 48px; }
   .products.blog-content {
